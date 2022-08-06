@@ -386,7 +386,7 @@ button {
 
 .main_menu .wsus__droap_menu li a::after {
     position: absolute;
-    content: "\f30b" !important;
+    content: "\f30b";
     color: var(--colorPrimary);
     font-family: "Font Awesome 5 Free";
     font-weight: 600;
@@ -799,6 +799,11 @@ button {
     -webkit-box-orient: vertical;
     overflow: hidden;
     margin: 20px 0px 20px 0px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
 }
 
 .single_service_footer .img_area {
@@ -868,6 +873,10 @@ button {
 .wsus__features_services .prevArrow:hover,
 .wsus__features_services .nextArrow:hover {
     opacity: 1;
+}
+
+.wsus__single_services:hover .title {
+    color: var(--colorPrimary);
 }
 
 /*================================
@@ -1617,7 +1626,7 @@ footer {
 }
 
 .wsus__about_text p {
-    margin: 20px 0px 33px 0px;
+    margin: 20px 0px 20px 0px;
 }
 
 .wsus__about_text ul {
@@ -1754,6 +1763,778 @@ footer {
 ================================*/
 
 
+/*================================
+    SERVICE PAGE START
+================================*/
+.wsus__service_search {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+.wsus__service_search label {
+    background: var(--colorPrimary);
+    color: var(--colorWhite);
+    font-size: 18px;
+    font-weight: 500;
+    padding: 12px 25px;
+    display: block;
+}
+
+.wsus__service_search .select2-container--default .select2-selection--single {
+    background-color: #F5F9FF;
+    border: none;
+    border-radius: 0px 0px 5px 5px;
+    -webkit-border-radius: 0px 0px 5px 5px;
+    -moz-border-radius: 0px 0px 5px 5px;
+    -ms-border-radius: 0px 0px 5px 5px;
+    -o-border-radius: 0px 0px 5px 5px;
+}
+
+.wsus__service_search .select2-container .select2-selection--single {
+    height: 50px;
+}
+
+.wsus__service_search .select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: var(--paraColor);
+    line-height: 50px;
+    padding-left: 25px;
+}
+
+.wsus__service_search .select2-container--default .select2-selection--single .select2-selection__arrow {
+    top: 12px;
+    right: 20px;
+}
+
+
+
+.wsus__brand_list {}
+
+.wsus__single_brand {
+    margin-top: 25px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 0px 45px 5px rgba(0, 191, 140, 0.08);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+/*================================
+    SERVICE PAGE END
+================================*/
+
+
+
+/*================================
+    PAGINATION START
+================================*/
+.wsus__pagination ul li a {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    padding: 0;
+    color: var(--paraColor);
+    border: 1px solid var(--colorPrimary);
+    border-radius: 3px;
+    margin-right: 15px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.wsus__pagination ul li a:hover,
+.wsus__pagination ul li a.active {
+    background: var(--colorPrimary);
+    color: var(--colorWhite);
+}
+
+/*================================
+    PAGINATION END
+================================*/
+
+
+
+/*================================
+    SERVICE DETAILS START
+================================*/
+
+
+
+
+.wsus__service_details_content {
+    border: 1px solid #E9F2FF;
+    border-radius: 5px;
+    overflow: hidden;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.wsus__service_details_text {
+    padding: 30px;
+}
+
+.wsus__service_details_text h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--colorBlack);
+    margin-bottom: 30px;
+}
+
+.wsus__service_details_text .nav-pills li button {
+    background: #E9F2FF;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--colorBlack);
+    margin-right: 15px;
+    padding: 10px 20px;
+}
+
+.wsus__service_details_text .nav-pills li button:hover,
+.wsus__service_details_text .nav-pills li button.active {
+    background-color: var(--colorPrimary);
+    color: var(--colorWhite);
+}
+
+.tab_details p {
+    margin-top: 25px;
+}
+
+.tab_details h4 {
+    font-size: 18px;
+    font-weight: 900;
+    color: var(--colorBlack);
+    margin: 25px 0px;
+}
+
+.tab_details .list li {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--paraColor);
+    margin-top: 15px;
+    padding-left: 40px;
+    position: relative;
+}
+
+.tab_details .list li::after {
+    position: absolute;
+    content: "\f00c";
+    color: var(--colorWhite);
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    top: 0px;
+    left: 0;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 50%;
+    background: var(--colorPrimary);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.wsus_details_list_item_img {
+    height: 190px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.tab_details .details_time {}
+
+.tab_details .details_time li {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--paraColor);
+    padding-left: 40px;
+    margin-top: 15px;
+    position: relative;
+}
+
+.tab_details .details_time li::after {
+    position: absolute;
+    content: "";
+    background: #00BF8C;
+    top: 5px;
+    left: 0;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.tab_details .details_time li span {
+    display: inline-block;
+    width: 150px;
+}
+
+.wsus__single_review {
+    background: #F5F9FF;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 25px;
+}
+
+.wsus__single_review_top {
+    display: flex;
+}
+
+.wsus__single_review_top img {
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-right: 15px;
+}
+
+.wsus__single_review_top .text {
+    width: 91%;
+}
+
+.wsus__single_review_top .text h3 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--colorBlack);
+}
+
+.wsus__single_review_top .text h3 span {
+    color: #FFA800;
+}
+
+.wsus__single_review_top .text p {
+    margin: 0;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.wsus__single_review .review_text {
+    margin-top: 15px;
+}
+
+.tab_details .see_review {
+    font-size: 18px;
+    font-weight: 500;
+    color: #00BF8C;
+    text-transform: capitalize;
+    margin-top: 25px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.tab_details .see_review:hover {
+    color: var(--colorPrimary);
+}
+
+.wsus__review_input p {
+    font-size: 15px;
+    color: #C1C1C1;
+}
+
+.wsus__review_input p i:hover {
+    color: #FFA800;
+    cursor: pointer;
+}
+
+.wsus__review_input p span {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.wsus__review_input fieldset {
+    border: 1px solid #c2ddff;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.wsus__review_input legend {
+    width: auto;
+    float: none;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--colorBlack);
+    text-transform: capitalize;
+    margin-bottom: 0;
+    margin-left: 15px;
+}
+
+.wsus__review_input input,
+.wsus__review_input textarea {
+    border: none;
+    padding: 5px 20px 12px 20px;
+}
+
+.wsus__package {
+    background: var(--colorPrimary);
+    border-radius: 5px;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    position: relative;
+    padding: 30px;
+    overflow: hidden;
+}
+
+.wsus__package::after {
+    position: absolute;
+    content: "";
+    width: 300px;
+    height: 300px;
+    background: var(--colorWhite);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    top: -140px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.wsus__package p {
+    font-size: 26px;
+    font-weight: 400;
+    color: var(--colorBlack);
+    position: relative;
+    z-index: 1;
+}
+
+.wsus__package h2 {
+    font-size: 42px;
+    font-weight: 700;
+    position: relative;
+    z-index: 1;
+}
+
+.wsus__package ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 55px;
+}
+
+.wsus__package ul li {
+    position: relative;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--colorWhite);
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 20px;
+    padding-left: 30px;
+}
+
+.wsus__package ul li::after {
+    position: absolute;
+    content: "\f00c";
+    color: var(--colorWhite);
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    top: 0px;
+    left: 0;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.wsus__package a {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--colorBlack);
+    background: var(--colorWhite);
+    display: block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 30px;
+    transition: all linear .3s;
+}
+
+.wsus__package a:hover {
+    color: var(--colorPrimary);
+}
+
+.wsus__service_provider {
+    text-align: center;
+    box-shadow: 0px 0px 30px 5px rgba(55, 143, 255, 0.08);
+    padding: 30px;
+}
+
+.wsus__service_provider img {
+    height: 100px !important;
+    width: 100px !important;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+.wsus__service_provider h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--colorBlack);
+    margin-bottom: 10px;
+}
+
+.wsus__service_provider h6 {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--paraColor);
+}
+
+.wsus__service_provider .info {
+    background: #F5F9FF;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 40px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.wsus__service_provider .info p {
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    color: var(--colorBlack);
+    margin-bottom: 10px;
+}
+
+.wsus__service_provider .info p span {
+    color: var(--colorBlack);
+}
+
+.wsus__service_provider .info p b {
+    color: #FFA800;
+}
+
+.wsus__service_provider .info hr {
+    background: #abccff;
+}
+
+.wsus__service_provider a {
+    display: block;
+    text-align: left;
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--colorBlack);
+    margin-top: 10px;
+}
+
+.wsus__service_provider a i {
+    width: 25px;
+    color: var(--colorPrimary);
+}
+
+/*================================
+    SERVICE DETAILS END
+================================*/
+
+
+/*================================
+    BOOKING SERVICE START
+================================*/
+.wsus__booking_service {}
+
+.wsus__booking_area {
+    border: 1px solid #E9F2FF;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.booking_bar {}
+
+.booking_bar li {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    border: 2px solid #00BF8C;
+    margin-right: 120px;
+    position: relative;
+    background: var(--colorWhite);
+    z-index: 1;
+}
+
+.booking_bar li::after {
+    position: absolute;
+    content: "";
+    width: 130px;
+    height: 2px;
+    background: #00BF8C;
+    top: 50%;
+    left: 100%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    z-index: -1;
+}
+
+.booking_bar li:last-child {
+    margin: 0;
+}
+
+.booking_bar li:last-child::after {
+    display: none;
+}
+
+.booking_bar li.active {
+    background: #00BF8C;
+    color: var(--colorWhite);
+}
+
+.booking_bar li span {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--colorBlack);
+    position: absolute;
+    bottom: -15px;
+    left: 48px;
+    width: 120px;
+    text-align: center;
+}
+
+.wsus__booking_img {
+    height: 400px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+
+
+
+.wsus__booking_text {}
+
+.wsus__booking_text h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--colorBlack);
+    margin: 30px 0px 25px 0px;
+}
+
+.wsus__booking_list_text {}
+
+.wsus__booking_list_text h3 {
+    font-size: 18px;
+    font-weight: 900;
+    color: var(--colorBlack);
+    margin: 25px 0px;
+}
+
+.wsus__booking_list_text ul {}
+
+.wsus__booking_list_text ul li {
+    position: relative;
+    padding-left: 40px;
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--paraColor);
+}
+
+.wsus__booking_list_text ul li::after {
+    position: absolute;
+    content: "\f00c";
+    color: var(--colorWhite);
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    top: 0px;
+    left: 0;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 50%;
+    background: var(--colorPrimary);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
+.wsus__service_cart {
+    padding: 30px;
+    background: #F5F9FF;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+.wsus__service_cart h4 {
+    font-size: 18px;
+    font-weight: 900;
+    color: var(--colorBlack);
+    margin-bottom: 30px;
+}
+
+.wsus__service_cart_bg {
+    background: var(--colorWhite);
+    padding: 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding-bottom: 5px;
+}
+
+.wsus__service_cart table {
+    margin: 0;
+    border-color: transparent;
+}
+
+.wsus__service_cart table tr {
+    display: flex;
+}
+
+.wsus__service_cart table tr th {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--paraColor);
+}
+
+.wsus__service_cart table tr th,
+.wsus__service_cart table tr td {
+    padding: 0px 0px 12px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.wsus__service_cart table tr td {
+    border-top: 1px solid #E9F2FF;
+    padding: 15px 0px;
+}
+
+.wsus__service_cart .images {
+    width: 170px;
+}
+
+.wsus__service_cart .name {
+    width: 220px;
+}
+
+.wsus__service_cart .price,
+.wsus__service_cart .total,
+.wsus__service_cart .qty {
+    width: 100px;
+}
+
+.wsus__service_cart .images img {
+    width: 140px !important;
+    height: 80px !important;
+    border-radius: 5px;
+}
+
+.wsus__service_cart .name .form-check input {
+    padding: 0;
+    border: 1px solid #00BF8C;
+}
+
+.wsus__service_cart .name .form-check label {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--colorBlack);
+}
+
+.wsus__service_cart .price p,
+.wsus__service_cart .total p {
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--colorBlack);
+}
+
+.wsus__service_cart .qty input {
+    width: 70px;
+    padding: 5px 10px;
+    border: 1px solid #C9C9C9;
+    font-weight: 600;
+    color: var(--colorBlack);
+}
+
+.wsus__service_cart .name input:checked {
+    background-color: #00BF8C;
+    border-color: #00BF8C;
+}
+
+.wsus__service_cart .name input:focus {
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: none;
+}
+
+
+.wsus__booking_service .button_area {
+    margin-top: 50px;
+}
+
+.wsus__booking_service .button_area a {
+    margin-right: 10px;
+}
+
+.wsus__booking_service .button_area li:first-child a {
+    background: var(--colorWhite);
+    color: var(--colorPrimary);
+    border: 1px solid var(--colorPrimary);
+}
+
+.wsus__booking_service .button_area li:first-child a:hover {
+    background: #156fdf;
+    color: var(--colorWhite);
+}
 
 
 
@@ -1761,7 +2542,16 @@ footer {
 
 
 
+.wsus__booking_location {}
 
+
+
+
+
+
+/*================================
+    BOOKING SERVICE END
+================================*/
 
 
 

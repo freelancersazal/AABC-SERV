@@ -140,5 +140,11 @@ $(function () {
     });
 
 
+    //*==========STICKY SIDEBAR========= 
+    $("#sticky_sidebar").stickit({
+        top: 95,
+    })
+
+
 
 });
