@@ -17,7 +17,6 @@ $(function () {
         });
     }
 
-
     //=======SELECT2====== 
     $(document).ready(function () {
         $('.select_2').select2();
@@ -144,8 +143,6 @@ $(function () {
     $("#sticky_sidebar").stickit({
         top: 95,
     })
-
-
 
     //=========calender.js=========   
     $(function () {
