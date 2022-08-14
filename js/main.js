@@ -32,12 +32,18 @@ $(function () {
     $('.category_slider').slick({
         slidesToShow: 6,
         slidesToScroll: 1,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 4000,
         dots: true,
         arrows: false,
 
         responsive: [
+            {
+                breakpoint: 1400,
+                settings: {
+                    slidesToShow: 5,
+                }
+            },
             {
                 breakpoint: 1200,
                 settings: {
@@ -59,7 +65,7 @@ $(function () {
             {
                 breakpoint: 576,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 1,
                 }
             }
         ]

@@ -1,26 +1,453 @@
 @media (min-width: 1200px) and (max-width: 1399.99px) {
-    
-      
- 
-  
+
+
+    .wsus__banner_text ul {
+        width: 100%;
+    }
+
+    .wsus__banner_text ul li:first-child::after {
+        right: -8px;
+    }
+
+    .wsus__banner_img {
+        height: 500px;
+    }
+
+    .wsus__features_services .prevArrow,
+    .wsus__features_services .nextArrow {
+        right: -30px;
+    }
+
+    .wsus__features_services .prevArrow {
+        left: -30px;
+    }
+
+    .wsus__app_download_img {
+        height: 500px;
+    }
+
+    .wsus__app_download_text h2 {
+        font-size: 37px;
+    }
+
+    .wsus__services_text .title {
+        font-size: 20px;
+    }
+
+    .wsus__single_blog_text h2 {
+        font-size: 20px;
+    }
+
+    /* about start */
+    .wsus__about_img .img_2 {
+        right: 0;
+    }
+
+
+    .wsus__about_reasons_img .img_1 {
+        width: 400px !important;
+        height: 400px !important;
+    }
+
+    /* about end */
+
 }
 
 
 
 @media (min-width: 992px) and (max-width: 1199.99px) {
-    
-      
- 
-  
+
+    /* home page start */
+    .main_menu .navbar-brand {
+        width: 150px;
+    }
+
+    .wsus__topbar_info li a,
+    .wsus__topbar_info li span {
+        padding-right: 20px;
+        margin-right: 20px;
+    }
+
+    .wsus__topbar_language {
+        margin-right: 15px;
+    }
+
+    .main_menu .nav-item .nav-link {
+        margin: 0px 10px;
+    }
+
+    .main_menu .wsus__right_menu li a {
+        margin: 0px 5px;
+    }
+
+    .wsus__banner_text h1 {
+        font-size: 40px;
+    }
+
+    .wsus__banner_text p {
+        font-size: 16px;
+    }
+
+    .wsus__banner_text ul li {
+        padding: 10px 20px;
+        width: 50%;
+        border-bottom: 1px solid #eee;
+        padding-bottom: 10px;
+    }
+
+    .wsus__banner_text ul li:last-child {
+        width: 100%;
+    }
+
+    .wsus__banner_text ul li .select2-container {
+        width: 100% !important;
+    }
+
+    .wsus__banner_text ul {
+        width: 100%;
+    }
+
+    .wsus__banner_text ul li button {
+        width: 100%;
+        margin: 10px 0px;
+    }
+
+    .wsus__banner_img {
+        height: 420px;
+    }
+
+    .wsus__seller_join_text h3 {
+        font-size: 40px;
+        margin-bottom: 35px;
+    }
+
+    .wsus__app_download_img {
+        height: 350px;
+    }
+
+    .wsus__subscribe_img {
+        height: 415px;
+    }
+
+    .wsus__footer_content h2 {
+        font-size: 22px;
+    }
+
+    /* home page end */
+
+
+
+    /* 404 start */
+    .wsus__404_text {
+        margin-top: 5px;
+    }
+
+    /* 404 end */
+
+
+    /* about start */
+    .wsus__work_single {
+        padding: 0px 25px;
+    }
+
+    .wsus__work_single h4 {
+        font-size: 20px;
+    }
+
+    .wsus__about_img .img_2 {
+        right: 0;
+    }
+
+    .wsus__about_reasons_img .img_1 {
+        width: 400px !important;
+        height: 400px !important;
+    }
+
+    .wsus__about_reasons_img .img_2 {
+        width: 300px !important;
+        height: 300px !important;
+    }
+
+    .wsus__about_reasons_img {
+        height: 100%;
+    }
+
+
+    /* about end */
+
+
 }
 
 
 
 @media (min-width: 768px) and (max-width: 991.99px) {
-    
-      
- 
-  
+
+
+    /* home page start */
+
+    .wsus__topbar_info li a,
+    .wsus__topbar_info li span {
+        padding-right: 0;
+        margin-right: 0;
+    }
+
+    .wsus__topbar_info {
+        justify-content: center;
+        line-height: 0;
+    }
+
+    .wsus__topbar_info li {
+        margin: 0px 15px;
+    }
+
+    .wsus__topbar_language {
+        margin-right: 20px;
+    }
+
+    .wsus__topbar_info li a::after {
+        display: none;
+    }
+
+    .wsus__topbar {
+        height: auto;
+        padding-top: 18px;
+    }
+
+    .wsus__topbar_right {
+        justify-content: center !important;
+    }
+
+    .main_menu {
+        height: 70px;
+    }
+
+    .main_menu .nav-item .nav-link {
+        text-align: center;
+    }
+
+    .main_menu .container {
+        padding: 10px .75rem;
+    }
+
+    .main_menu .navbar-nav {
+        line-height: 50px;
+        background: var(--colorWhite);
+        border-top: 1px solid var(--colorPrimary);
+        margin-top: 8px !important;
+        padding-top: 15px;
+    }
+
+    .wsus__banner_text ul li .select2-container--default .select2-selection--single .select2-selection__rendered {
+        font-size: 16px;
+    }
+
+    .wsus__right_menu {
+        background: var(--colorWhite);
+        padding: 10px 0px 20px 0px;
+        justify-content: center;
+    }
+
+    .navbar-toggler {
+        width: 40px;
+        height: 40px;
+        padding: 0;
+        background: var(--colorPrimary);
+        color: var(--colorWhite);
+        border: none;
+    }
+
+    .main_menu .wsus__droap_menu {
+        left: 50%;
+        transform: translateX(-50%);
+        max-height: 250px;
+        overflow-y: scroll;
+    }
+
+    .search_form {
+        right: auto;
+        left: 10px;
+        width: 300px;
+    }
+
+    .wsus__banner_text h1 {
+        font-size: 45px;
+    }
+
+    .wsus__banner_text p {
+        font-size: 16px;
+    }
+
+    .wsus__banner_text ul {
+        width: 100%;
+    }
+
+    .wsus__banner_text ul li:first-child::after {
+        right: -25px;
+    }
+
+    .wsus__services_img {
+        height: 200px;
+    }
+
+    .wsus__banner_text {
+        height: auto;
+        margin-top: 70px;
+    }
+
+    .wsus__services_text {
+        padding: 15px;
+    }
+
+    .wsus__services_text .title {
+        font-size: 20px;
+    }
+
+    .wsus__section_heading h2 {
+        font-size: 35px;
+    }
+
+    .wsus__single_counter span {
+        width: 80px;
+        height: 80px;
+        padding: 23px;
+    }
+
+    .wsus__single_counter h4 {
+        margin: 15px 0px 5px 0px;
+    }
+
+    .wsus__single_counter {
+        margin-bottom: 40px;
+    }
+
+    .wsus__counter_overlay {
+        padding: 70px 0px 25px 0px;
+    }
+
+    .wsus__seller_join_text h3 {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+
+    .wsus__app_download_text h2 {
+        font-size: 25px;
+    }
+
+    .wsus__app_download_text ul {
+        margin-top: 25px;
+    }
+
+    .wsus__app_download_text ul li a {
+        padding: 12px 20px 10px 20px;
+    }
+
+    .wsus__features_services .prevArrow,
+    .wsus__features_services .nextArrow {
+        right: -20px
+    }
+
+    .wsus__features_services .prevArrow {
+        right: auto;
+        left: -20px;
+    }
+
+    .wsus__app_download_img {
+        height: 260px;
+    }
+
+    .wsus__single_blog_img {
+        height: 200px;
+    }
+
+    .wsus__single_blog_text h2 {
+        font-size: 20px;
+    }
+
+    .wsus__single_blog_text {
+        margin: 15px;
+    }
+
+    .wsus__subscribe_img {
+        height: 300px;
+    }
+
+    .wsus__subscribe_img img {
+        bottom: -45px;
+    }
+
+    .wsus__subscribe_text p {
+        font-size: 16px;
+    }
+
+    .wsus__subscribe_text h3 {
+        font-size: 35px;
+    }
+
+    .wsus__subscribe_text {
+        padding: 60px 0px 70px 0px;
+    }
+
+    .wsus__footer_content {
+        margin-bottom: 50px;
+    }
+
+    .wsus__footer_bottom_content {
+        flex-direction: column;
+    }
+
+    .wsus__footer_bottom p {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .wsus__banner_text ul li {
+        padding: 10px;
+    }
+
+    /* home page end */
+
+
+    /* 404 start */
+    .wsus__404_text {
+        margin-top: 5px;
+    }
+
+    /* 404 end */
+
+
+    /* about start */
+    .wsus__work_single::after {
+        display: none;
+    }
+
+    .wsus__about_img .img_1 {
+        width: 550px !important;
+    }
+
+    .wsus__about_img .img_2 {
+        height: 300px !important;
+    }
+
+    .wsus__about_text h2 {
+        font-size: 35px;
+        margin-top: 25px;
+    }
+
+    .wsus__about_reasons_text h2 {
+        font-size: 35px;
+    }
+
+    .wsus__about_reasons_img {
+        margin-top: 25px;
+    }
+
+    .wsus__about_reasons_img .img_1 {
+        width: 450px !important;
+        height: 450px !important;
+    }
+
+    /* about end */
+
 }
 
 
@@ -28,10 +455,301 @@
 
 
 @media (min-width: 576px) and (max-width: 767.99px) {
-    
-      
- 
-  
+
+    /* home page start */
+
+    .wsus__topbar_info li a,
+    .wsus__topbar_info li span {
+        padding-right: 0;
+        margin-right: 0;
+    }
+
+    .wsus__topbar_info {
+        justify-content: space-between;
+        line-height: 0;
+    }
+
+    .wsus__topbar_info li a::after {
+        display: none;
+    }
+
+    .wsus__topbar {
+        height: auto;
+        padding-top: 18px;
+    }
+
+    .wsus__topbar_right {
+        justify-content: center !important;
+    }
+
+    .main_menu {
+        height: 70px;
+    }
+
+    .main_menu .nav-item .nav-link {
+        text-align: center;
+    }
+
+    .main_menu .container {
+        padding: 10px .75rem;
+    }
+
+    .main_menu .navbar-nav {
+        line-height: 50px;
+        background: var(--colorWhite);
+        border-top: 1px solid var(--colorPrimary);
+        margin-top: 8px !important;
+        padding-top: 15px;
+    }
+
+    .wsus__banner_text ul li .select2-container--default .select2-selection--single .select2-selection__rendered {
+        font-size: 16px;
+    }
+
+    .wsus__right_menu {
+        background: var(--colorWhite);
+        padding: 10px 0px 20px 0px;
+        justify-content: center;
+    }
+
+    .navbar-toggler {
+        width: 40px;
+        height: 40px;
+        padding: 0;
+        background: var(--colorPrimary);
+        color: var(--colorWhite);
+        border: none;
+    }
+
+    .main_menu .wsus__droap_menu {
+        left: 50%;
+        transform: translateX(-50%);
+        max-height: 250px;
+        overflow-y: scroll;
+    }
+
+    .search_form {
+        right: auto;
+        left: 10px;
+    }
+
+    .search_form {
+        right: auto;
+        left: 10px;
+        width: 300px;
+    }
+
+    .wsus__banner_text h1 {
+        font-size: 45px;
+    }
+
+    .wsus__banner_text p {
+        font-size: 16px;
+    }
+
+    .wsus__banner_text ul {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .wsus__banner_text ul li:first-child:after {
+        display: none;
+    }
+
+    .wsus__banner_text ul li :no-button {
+        width: 100%;
+    }
+
+    .wsus__banner_text ul li {
+        width: 100%;
+        padding: 5px 20px;
+        border-bottom: 1px solid #eee;
+    }
+
+    .wsus__banner_text ul li button {
+        width: 100%;
+        margin: 13px 0px;
+    }
+
+    .wsus__banner_text ul li .select2-container {
+        width: 100% !important;
+    }
+
+    .wsus__banner_text ul li .select2-container--default .select2-selection--single .select2-selection__rendered {
+        padding-left: 0;
+    }
+
+    .wsus__banner_img {
+        height: 540px;
+    }
+
+    .wsus__banner_text {
+        height: auto;
+        margin-top: 70px;
+    }
+
+    .wsus__section_heading h2 {
+        font-size: 35px;
+    }
+
+    .wsus__single_counter span {
+        width: 80px;
+        height: 80px;
+        padding: 23px;
+    }
+
+    .wsus__single_counter h4 {
+        margin: 15px 0px 5px 0px;
+    }
+
+    .wsus__single_counter {
+        margin-bottom: 40px;
+    }
+
+    .wsus__counter_overlay {
+        padding: 70px 0px 25px 0px;
+    }
+
+    .wsus__seller_join_text h3 {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+
+    .wsus__app_download_text h2 {
+        font-size: 30px;
+    }
+
+    .wsus__app_download_text ul {
+        margin-top: 25px;
+    }
+
+    .wsus__app_download_text ul li a {
+        margin-bottom: 10px;
+    }
+
+    .wsus__app_download_img {
+        height: 465px;
+        margin-top: 60px;
+    }
+
+    .wsus__single_testimonial_img p span {
+        font-size: 20px;
+    }
+
+    .wsus__subscribe_text p {
+        font-size: 16px;
+    }
+
+    .wsus__subscribe_text h3 {
+        font-size: 35px;
+    }
+
+    .wsus__subscribe_text {
+        padding: 60px 0px 70px 0px;
+    }
+
+    .wsus__footer_content {
+        margin-bottom: 25px;
+        border-bottom: 1px solid #2f2f2f;
+        padding-bottom: 25px;
+    }
+
+    .wsus__footer_bottom_content {
+        flex-direction: column;
+    }
+
+    .wsus__footer_bottom p {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .wsus__features_services .prevArrow,
+    .wsus__features_services .nextArrow {
+        right: -20px;
+    }
+
+    .wsus__features_services .prevArrow {
+        left: -20px;
+    }
+
+    /* home page end */
+
+
+    /* 404 start */
+    .wsus__404_text h2 {
+        font-size: 100px;
+    }
+
+    .wsus__404_text h3 {
+        font-size: 25px;
+    }
+
+    .wsus__404_text {
+        margin-top: 20px;
+    }
+
+    /* 404 end */
+
+
+    /* about start */
+    .wsus__breadcrumb nav h1 {
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+
+    .wsus__work_single {
+        padding: 0px 20px;
+        margin-bottom: 20px;
+    }
+
+    .wsus__work_single h4 {
+        font-size: 20px;
+        margin: 15px 0px 15px 0px;
+    }
+
+    .wsus__work_single.last_item {
+        margin-bottom: 0;
+    }
+
+    .wsus__about_img .img_1 {
+        height: 390px !important;
+    }
+
+    .wsus__about_img .img_2 {
+        height: 275px !important;
+        right: 0;
+    }
+
+    .wsus__about_img {
+        height: 500px;
+    }
+
+    .wsus__about_text h2 {
+        font-size: 35px;
+        margin-top: 25px;
+    }
+
+    .wsus__about_reasons_text h2 {
+        font-size: 25px;
+    }
+
+    .wsus__about_reasons_img .img_1 {
+        width: 350px !important;
+        height: 350px !important;
+    }
+
+    .wsus__about_reasons_img .img_2 {
+        width: 250px !important;
+        height: 250px !important;
+    }
+
+    .wsus__about_reasons_img {
+        height: 400px;
+    }
+
+    /* about end */
+
+
 }
 
 
@@ -39,22 +757,366 @@
 
 
 @media (max-width: 575.99px) {
-    
-      
- 
-  
+
+    /* home page start */
+
+    .wsus__topbar_info li a,
+    .wsus__topbar_info li span {
+        padding-right: 0;
+        margin-right: 0;
+    }
+
+    .wsus__topbar_info {
+        justify-content: space-between;
+        line-height: 0;
+    }
+
+    .wsus__topbar_info li a::after {
+        display: none;
+    }
+
+    .wsus__topbar {
+        height: auto;
+        padding-top: 18px;
+    }
+
+    .wsus__topbar_right {
+        justify-content: space-between !important;
+    }
+
+    .wsus__topbar_language {
+        margin-right: 0;
+    }
+
+    .main_menu {
+        height: 70px;
+    }
+
+    .main_menu .nav-item .nav-link {
+        text-align: center;
+    }
+
+    .main_menu .container {
+        padding: 10px 0px;
+    }
+
+    .main_menu .navbar-nav {
+        line-height: 50px;
+        background: var(--colorWhite);
+        border-top: 1px solid var(--colorPrimary);
+        margin-top: 8px !important;
+        padding-top: 15px;
+    }
+
+    .wsus__banner_text ul li .select2-container--default .select2-selection--single .select2-selection__rendered {
+        font-size: 16px;
+    }
+
+    .wsus__right_menu {
+        background: var(--colorWhite);
+        padding: 10px 0px 20px 0px;
+        justify-content: center;
+    }
+
+    .navbar-toggler {
+        width: 40px;
+        height: 40px;
+        padding: 0;
+        background: var(--colorPrimary);
+        color: var(--colorWhite);
+        border: none;
+        margin-right: 10px;
+    }
+
+    .main_menu .navbar-brand {
+        margin-left: 10px;
+    }
+
+    .main_menu .wsus__droap_menu {
+        left: 50%;
+        transform: translateX(-50%);
+        max-height: 250px;
+        overflow-y: scroll;
+    }
+
+    .search_form {
+        right: auto;
+        left: 10px;
+    }
+
+    .search_form {
+        right: auto;
+        left: 10px;
+        width: 300px;
+    }
+
+    .wsus__banner_text h6 {
+        font-size: 20px;
+    }
+
+    .wsus__banner_text h1 {
+        font-size: 30px;
+    }
+
+    .wsus__banner_text p {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .wsus__banner_text ul {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .wsus__banner_text ul li:first-child:after {
+        display: none;
+    }
+
+    .wsus__banner_text ul li :no-button {
+        width: 100%;
+    }
+
+    .wsus__banner_text ul li {
+        width: 100%;
+        padding: 5px 20px;
+        border-bottom: 1px solid #eee;
+    }
+
+    .wsus__banner_text ul li button {
+        width: 100%;
+        margin: 13px 0px;
+    }
+
+    .wsus__banner_text ul li .select2-container {
+        width: 100% !important;
+    }
+
+    .wsus__banner_text ul li .select2-container--default .select2-selection--single .select2-selection__rendered {
+        padding-left: 0;
+    }
+
+    .wsus__banner_img {
+        height: 350px;
+    }
+
+    .wsus__banner_text {
+        height: auto;
+        margin-top: 70px;
+    }
+
+    .wsus__section_heading h2 {
+        font-size: 25px;
+    }
+
+    .wsus__services_img {
+        height: 200px;
+    }
+
+    .wsus__services_text {
+        padding: 15px;
+    }
+
+    .wsus__services_text .title {
+        font-size: 20px;
+    }
+
+    .single_service_footer {
+        flex-direction: column;
+        align-content: flex-start;
+    }
+
+    .single_service_footer .img_area {
+        margin-bottom: 10px;
+    }
+
+    .wsus__single_counter span {
+        width: 80px;
+        height: 80px;
+        padding: 23px;
+    }
+
+    .wsus__single_counter h4 {
+        margin: 15px 0px 5px 0px;
+    }
+
+    .wsus__single_counter {
+        margin-bottom: 40px;
+    }
+
+    .wsus__counter_overlay {
+        padding: 70px 0px 25px 0px;
+    }
+
+    .wsus__seller_join_text h3 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .wsus__app_download_text h2 {
+        font-size: 25px;
+    }
+
+    .wsus__app_download_text ul {
+        margin-top: 25px;
+    }
+
+    .wsus__app_download_text ul li {
+        width: 100%;
+    }
+
+    .wsus__app_download_text ul li a {
+        margin-bottom: 10px;
+    }
+
+    .wsus__app_download_img {
+        height: 280px;
+        margin-top: 60px;
+    }
+
+    .wsus__single_testimonial .review_text {
+        padding: 20px;
+    }
+
+    .wsus__single_testimonial_img {
+        margin: 35px 0px 0px 0px;
+    }
+
+    .wsus__single_testimonial .review_text::after {
+        left: 5px;
+    }
+
+    .wsus__single_testimonial_img p span {
+        font-size: 20px;
+    }
+
+    .wsus__single_blog_img {
+        height: 200px;
+    }
+
+    .wsus__single_blog_text {
+        margin: 15px;
+    }
+
+    .wsus__single_blog_text ul li {
+        margin-right: 15px;
+    }
+
+    .wsus__single_blog_text h2 {
+        font-size: 20px;
+    }
+
+    .wsus__single_blog_text a {
+        font-size: 16px;
+    }
+
+    .wsus__subscribe_text p {
+        font-size: 16px;
+    }
+
+    .wsus__subscribe_text h3 {
+        font-size: 35px;
+    }
+
+    .wsus__subscribe_text {
+        padding: 60px 0px 70px 0px;
+    }
+
+    .wsus__footer_content {
+        margin-bottom: 25px;
+        border-bottom: 1px solid #2f2f2f;
+        padding-bottom: 25px;
+    }
+
+    .wsus__footer_bottom_content {
+        flex-direction: column;
+    }
+
+    .wsus__footer_bottom p {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    /* home page end */
+
+
+    /* 404 start */
+    .wsus__404_text h2 {
+        font-size: 100px;
+    }
+
+    .wsus__404_text h3 {
+        font-size: 25px;
+    }
+
+    .wsus__404_text {
+        margin-top: 20px;
+    }
+
+    /* 404 end */
+
+
+    /* about start */
+    .wsus__breadcrumb nav h1 {
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+
+    .wsus__work_single {
+        padding: 0px 20px;
+        margin-bottom: 20px;
+    }
+
+    .wsus__work_single h4 {
+        font-size: 20px;
+        margin: 15px 0px 15px 0px;
+    }
+
+    .wsus__work_single.last_item {
+        margin-bottom: 0;
+    }
+
+    .wsus__about_img .img_1 {
+        width: 100% !important;
+        height: 350px !important;
+    }
+
+    .wsus__about_img .img_2 {
+        height: 275px !important;
+        bottom: 110px;
+        right: 0;
+    }
+
+    .wsus__about_img {
+        height: 500px;
+    }
+
+    .wus__about_rating {
+        width: 100%;
+    }
+
+    .wsus__about_text h2 {
+        font-size: 25px;
+        margin-top: 25px;
+    }
+
+    .wsus__about_reasons_text h2 {
+        font-size: 25px;
+    }
+
+    .wsus__about_reasons_img .img_1 {
+        width: 350px !important;
+        height: 350px !important;
+    }
+
+    .wsus__about_reasons_img .img_2 {
+        width: 250px !important;
+        height: 250px !important;
+    }
+
+    .wsus__about_reasons_img {
+        height: 400px;
+    }
+
+    /* about end */
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
