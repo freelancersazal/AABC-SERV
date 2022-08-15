@@ -1906,6 +1906,7 @@ footer {
     margin-top: 25px;
     border-radius: 5px;
     overflow: hidden;
+    height: 100px;
     box-shadow: 0px 0px 45px 5px rgba(0, 191, 140, 0.08);
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -2087,6 +2088,7 @@ footer {
 
 .wsus__single_review_top {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .wsus__single_review_top img {
@@ -2106,6 +2108,7 @@ footer {
 
 .wsus__single_review_top .text h3 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     font-size: 18px;
     font-weight: 700;
@@ -2194,6 +2197,7 @@ footer {
     position: relative;
     padding: 30px;
     overflow: hidden;
+    box-shadow: 0px 0px 30px 5px rgb(55 143 255 / 10%);
 }
 
 .wsus__package::after {
@@ -2825,7 +2829,16 @@ footer {
 
 .wsus__booking_payment {
     margin-top: 50px;
-    height: 65px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wsus__booking_payment li {
+    width: 120px;
+    height: 60px;
+    margin-right: 10px;
+    border-radius: 5px;
+    overflow: hidden;
 }
 
 /*================================
@@ -2892,7 +2905,7 @@ footer {
     font-size: 16px;
     font-weight: 400;
     color: var(--paraColor);
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     padding-left: 20px;
     position: relative;
 }
@@ -3064,6 +3077,7 @@ footer {
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+    margin-top: 25px;
 }
 
 .wsus__blog_newsletter_overlay {
@@ -3087,6 +3101,12 @@ footer {
 
 .wsus__blog_newsletter input {
     margin: 20px 0px 20px 0px;
+}
+
+
+.wsus__blog_page .wsus__single_blog {
+    margin-top: 0;
+    margin-bottom: 25px;
 }
 
 /*================================
@@ -3131,6 +3151,9 @@ footer {
     width: 15px;
 }
 
+.wsus__blog_det_slider {
+    margin-bottom: 30px;
+}
 
 .wsus__blog_details_text h2 {
     font-size: 24px;
@@ -3286,6 +3309,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-content: center;
+    flex-wrap: wrap;
 }
 
 .blog_det_button li {
@@ -3482,6 +3506,7 @@ footer {
 .wsus__contact_top p {
     font-size: 18px;
     font-weight: 500;
+    display: block;
     color: var(--colorBlack);
     transition: all linear .3s;
     -webkit-transition: all linear .3s;
@@ -3632,6 +3657,7 @@ footer {
     font-size: 42px;
     color: var(--colorBlack);
     text-transform: capitalize;
+    margin-bottom: 5px;
 }
 
 .wsus__sign_in_text p {
@@ -3770,8 +3796,9 @@ footer {
 
 .wsus__sign_in_img {
     height: 100%;
+    border-radius: 5px;
+    overflow: hidden;
 }
-
 
 /*================================
     SIGN IN END
@@ -4279,7 +4306,6 @@ footer {
 }
 
 .wsus__dashboard p {
-    margin-top: 35px;
     margin-bottom: 5px;
 }
 
