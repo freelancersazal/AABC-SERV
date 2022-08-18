@@ -1,6 +1,5 @@
 @media (min-width: 1200px) and (max-width: 1399.99px) {
 
-
     .wsus__banner_text ul {
         width: 100%;
     }
@@ -36,6 +35,10 @@
 
     .wsus__single_blog_text h2 {
         font-size: 20px;
+    }
+
+    .wsus__subscribe_img {
+        height: 400px;
     }
 
     /* about start */
@@ -109,15 +112,11 @@
         margin: 20px;
     }
 
-
-
     /* dashboard start */
     .wsus_dashboard_order table tr th,
     .wsus_dashboard_order table tr td {
         width: 161px;
     }
-
-
 
     /* dashboard end */
 
