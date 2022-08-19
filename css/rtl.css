@@ -89,10 +89,10 @@
     left: 5px;
 }
 
-.wsus__banner_text ul li:first-child:after {
+/* .wsus__banner_text ul li:first-child:after {
     right: auto;
     left: 0;
-}
+} */
 
 .wsus__banner_text ul li:first-child {
     padding-left: 0;
@@ -106,7 +106,7 @@
 
 .wsus__banner_text ul li:first-child:after {
     right: auto;
-    left: -15px;
+    left: -20px;
 }
 
 .wsus__banner_img .banner_counter {
@@ -307,4 +307,498 @@
 .wsus__blog_tags ul li a {
     margin-right: 0;
     margin-left: 10px;
+}
+
+.wsus__blog_details_text .details_bloger li {
+    margin-right: 0;
+    margin-left: 50px;
+}
+
+.wsus__blog_quot_text {
+    padding: 35px 70px 35px 35px;
+}
+
+.wsus__blog_quot_text .left_icon {
+    transform: rotateY(0deg);
+    left: auto;
+    right: 40px;
+}
+
+.wsus__blog_quot_text p i {
+    margin-left: 0;
+    margin-right: 10px;
+    transform: rotate(180deg);
+}
+
+.wsus__blog_quot_text h4 span {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.blog_details_list li {
+    padding-left: 0;
+    padding-right: 40px;
+}
+
+.blog_details_list li::after {
+    left: auto;
+    right: 0;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
+
+.blog_tags_share span {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.blog_tags_share .tags ul li a {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.blog_det_button li:last-child a p,
+.blog_det_button li:last-child a p span {
+    text-align: right;
+}
+
+.blog_det_button li a span i {
+    margin-left: 0;
+    padding-left: 10px;
+    transform: rotateY(180deg);
+}
+
+.blog_det_button li:last-child a span i {
+    transform: rotateY(180deg);
+}
+
+.blog_det_button li:first-child a span i {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.blog_det_button li:first-child a p {
+    text-align: left;
+}
+
+.blog_det_button li a p span {
+    text-align: left;
+}
+
+.wsus__review_input legend {
+    margin-left: 0;
+    margin-right: 15px;
+}
+
+.wsus__pagination ul li a {
+    margin-right: 0 !important;
+    margin-left: 15px !important;
+}
+
+.wsus__pagination ul li a i {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+.wsus__booking_summery ul li {
+    padding-left: 0;
+    padding-right: 25px;
+}
+
+.wsus__booking_summery ul li::after {
+    left: auto;
+    right: 0;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
+
+.booking_bar li {
+    margin-right: 0;
+    margin-left: 120px;
+}
+
+.booking_bar li::after {
+    left: auto;
+    right: 100%;
+}
+
+.booking_bar li span {
+    left: auto;
+    right: 48px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    right: auto;
+    left: 1px;
+}
+
+.wsus__booking_list_text ul li {
+    padding-left: 0;
+    padding-right: 40px;
+}
+
+.wsus__booking_list_text ul li::after {
+    left: auto;
+    right: 0;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
+
+.wsus__service_cart .name .form-check .form-check-input {
+    float: right;
+}
+
+.wsus__service_cart .name .form-check label {
+    padding-right: 25px;
+}
+
+.wsus__service_cart .name input:checked {
+    transform: rotateY(180deg);
+}
+
+.wsus__contact_top span i {
+    transform: rotateY(180deg);
+}
+
+.accordion-button::after {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.wsus__pricacy_policy_text ul li {
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+.wsus__pricacy_policy_text ul li::after {
+    left: auto;
+    right: 0;
+}
+
+.wsus__sellar_top img {
+    margin: 50px 0px 50px 50px;
+}
+
+.wsus__sellar_top ul li {
+    margin-right: 0;
+    margin-left: 30px;
+}
+
+.wsus__sellar_search form::after {
+    left: auto;
+    right: 20px;
+}
+
+.wsus__sellar_search form button {
+    right: auto;
+    left: 0;
+}
+
+.wsus__sellar_search form {
+    padding-left: 0;
+    padding-right: 30px;
+}
+
+.wsus__service_provider a {
+    text-align: right;
+}
+
+.tab_details .list li {
+    padding-left: 0;
+    padding-right: 40px;
+}
+
+.tab_details .list li::after {
+    left: auto;
+    right: 0;
+    transform: rotateY(180deg);
+}
+
+.tab_details .details_time li {
+    padding-left: 0;
+    padding-right: 40px;
+}
+
+.tab_details .details_time li::after {
+    left: auto;
+    right: 0;
+}
+
+.wsus__single_review_top img {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+.wsus__review_input p span {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.wsus__package ul li {
+    padding-left: 0;
+    padding-right: 30px;
+}
+
+.wsus__package ul li::after {
+    left: auto;
+    right: 0;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
+
+.wsus__service_search .select2-container--default .select2-selection--single .select2-selection__arrow {
+    right: auto;
+    left: 20px;
+}
+
+.wsus__review_input ul li a i {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.wsus__login_check .form-check input {
+    float: right;
+}
+
+.wsus__login_check .form-check label {
+    margin-right: 25px;
+}
+
+.wsus__login_check .form-check input:checked {
+    transform: rotateY(180deg);
+}
+
+.calendar-header span.button {
+    transform: rotateY(180deg);
+}
+
+.wsus__subscribe_text form button {
+    right: auto;
+    left: 7px;
+}
+
+.wsus__faq_area .accordion-item button {
+    text-align: right;
+}
+
+/* dashboard start */
+.wsus__dashboard_content {
+    padding: 25px 0px 25px 25px;
+}
+
+.dasboard_header img {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+.wsus__dashboard_menu button {
+    text-align: right;
+}
+
+.wsus__dashboard_menu button.active::after {
+    left: auto;
+    right: -35px;
+}
+
+.wsus_dash_personal_info .nav-link {
+    padding: 9px 40px 3px 15px !important;
+}
+
+.wsus_dash_personal_info .nav-link::after {
+    left: auto;
+    right: 5px;
+}
+
+.wsus_dash_personal_info .nav-link.active {
+    padding: 7px 15px 5px 40px !important;
+}
+
+.wsus_dash_personal_info .nav-link.active::after {
+    left: auto;
+    right: 47px;
+}
+
+.wsus__dashboard .modal-body p {
+    text-align: center;
+}
+
+.wsus__dashboard p b {
+    text-align: center;
+}
+
+.wsus__dashboard .modal-dialog {
+    margin: 1.75rem auto;
+    margin-bottom: 10px;
+    top: auto;
+    left: auto;
+    transform: translate(0) !important;
+}
+
+.wsus__single_review_top .text p {
+    text-align: right;
+}
+
+/* dashboard end */
+
+
+
+@media (min-width: 1200px) and (max-width: 1399.99px) {
+    .wsus__banner_text ul li:first-child:after {
+        left: -27px;
+    }
+
+    .wsus__features_services .prevArrow {
+        left: -30px;
+        right: auto;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.99px) {
+
+    .wsus__banner_text ul li:first-child:after {
+        left: -15px;
+    }
+
+    .wsus__single_blog_text ul li {
+        margin-left: 0;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+
+    .wsus__banner_text ul li:first-child:after {
+        left: -45px;
+    }
+
+    .wsus__sellar_top img {
+        margin: 25px 0px 25px 25px;
+    }
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+
+    .wsus__topbar_info li a,
+    .wsus__topbar_info li span {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .search_form {
+        right: 0;
+        left: auto;
+    }
+
+    .wsus__banner_text .select2-container .select2-selection--single .select2-selection__rendered {
+        padding-right: 0;
+    }
+
+    .wsus__banner_text ul li:first-child {
+        padding-left: 20px;
+    }
+
+    .booking_bar li {
+        margin-left: 70px;
+    }
+
+    .booking_bar li span {
+        right: -33px;
+    }
+
+    .wsus__sellar_top img {
+        margin: 25px 0px 25px 25px;
+    }
+
+
+}
+
+
+
+@media (max-width: 575.99px) {
+
+    .wsus__topbar_language {
+        margin-left: 0 !important;
+    }
+
+    .navbar-toggler {
+        margin-right: 0;
+        text-align: center;
+        margin-left: 10px;
+    }
+
+    .main_menu .navbar-brand {
+        margin-left: 0;
+        margin-right: 15px;
+    }
+
+    .main_menu .wsus__droap_menu {
+        left: 50%;
+        right: auto;
+    }
+
+    .wsus__banner_text ul li:first-child {
+        padding-left: 20px;
+    }
+
+    .wsus__banner_text .select2-container .select2-selection--single .select2-selection__rendered {
+        padding-right: 0;
+    }
+
+    .wsus__single_blog_text ul li {
+        margin-left: 15px;
+    }
+
+    .search_form {
+        right: -10px;
+        left: auto;
+    }
+
+    .wsus__about_img .img_2 {
+        right: auto !important;
+        left: 0;
+    }
+
+    .wsus__blog_quot_text {
+        padding: 15px 20px 15px 15px;
+    }
+
+    .wsus__blog_quot_text .left_icon {
+        right: 3px;
+    }
+
+    .wsus__pagination ul li a {
+        margin-left: 8px !important;
+    }
+
+    .booking_bar li {
+        margin-left: 70px;
+    }
+
+    .booking_bar li span {
+        right: -33px;
+    }
+
+    .wsus_dash_personal_info h4 {
+        width: 100%;
+    }
+
+
 }

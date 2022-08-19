@@ -9,7 +9,7 @@
     }
 
     .wsus__banner_img {
-        height: 500px;
+        height: 415px;
     }
 
     .wsus__features_services .prevArrow,
@@ -22,7 +22,7 @@
     }
 
     .wsus__app_download_img {
-        height: 500px;
+        height: 515px;
     }
 
     .wsus__app_download_text h2 {
@@ -160,12 +160,12 @@
     .wsus__banner_text ul li {
         padding: 10px 20px;
         width: 50%;
-        border-bottom: 1px solid #eee;
         padding-bottom: 10px;
     }
 
     .wsus__banner_text ul li:last-child {
         width: 100%;
+        padding-top: 0;
     }
 
     .wsus__banner_text ul li .select2-container {
@@ -178,7 +178,6 @@
 
     .wsus__banner_text ul li button {
         width: 100%;
-        margin: 10px 0px;
     }
 
     .wsus__banner_img {
@@ -531,6 +530,7 @@
         background: var(--colorPrimary);
         color: var(--colorWhite);
         border: none;
+        text-align: center;
     }
 
     .main_menu .wsus__droap_menu {
@@ -559,7 +559,7 @@
     }
 
     .wsus__banner_text ul li:first-child::after {
-        right: -25px;
+        right: -32px;
     }
 
     .wsus__services_img {
@@ -914,9 +914,12 @@
 
     /* dashboard end */
 
+    .wsus__banner_img {
+        height: 470px;
+    }
+
+
 }
-
-
 
 
 
@@ -985,6 +988,7 @@
         background: var(--colorPrimary);
         color: var(--colorWhite);
         border: none;
+        text-align: center;
     }
 
     .main_menu .wsus__droap_menu {
@@ -1094,7 +1098,7 @@
     }
 
     .wsus__app_download_img {
-        height: 465px;
+        height: 480px;
         margin-top: 60px;
     }
 
@@ -1496,6 +1500,10 @@
 
     /* dashboard end */
 
+    .wsus__service_booking p span {
+        width: 110px;
+    }
+
 }
 
 
@@ -1505,11 +1513,10 @@
 @media (max-width: 575.99px) {
 
     /* home page start */
-
     .wsus__topbar_info li a,
     .wsus__topbar_info li span {
-        padding-right: 0;
-        margin-right: 0;
+        padding: 0 !important;
+        margin: 0 !important;
     }
 
     .wsus__topbar_info {
@@ -1592,7 +1599,7 @@
 
     .search_form {
         right: auto;
-        left: -5px;
+        left: -10px;
         width: 300px;
     }
 
@@ -1834,7 +1841,7 @@
     .wsus__about_img .img_2 {
         height: 275px !important;
         bottom: 110px;
-        right: 0;
+        right: 0 !important;
     }
 
     .wsus__about_img {
@@ -2241,6 +2248,11 @@
 
     .wsus__dashboard .modal-content {
         padding: 15px !important;
+    }
+
+    .wsus__dashboard .modal-footer button {
+        font-size: 14px;
+        width: 46%;
     }
 
     /* dashboard end */
