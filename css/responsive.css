@@ -9,7 +9,7 @@
     }
 
     .wsus__banner_img {
-        height: 415px;
+        height: 480px;
     }
 
     .wsus__features_services .prevArrow,
@@ -119,6 +119,9 @@
     }
 
     /* dashboard end */
+    .wsus__sellar_search form {
+        width: 33%;
+    }
 
 }
 
@@ -181,7 +184,11 @@
     }
 
     .wsus__banner_img {
-        height: 420px;
+        height: 430px;
+    }
+
+    .wsus__banner_img .banner_counter {
+        right: -20px;
     }
 
     .wsus__seller_join_text h3 {
@@ -451,6 +458,10 @@
     }
 
     /* dashboard end */
+
+    .wsus__sellar_search form {
+        width: 37%;
+    }
 
 }
 
@@ -847,8 +858,6 @@
 
     .wsus__sellar_top ul li {
         font-size: 15px;
-        width: 100%;
-        margin: 0;
     }
 
     .wsus__sellar_search h3 {
@@ -918,6 +927,9 @@
         height: 470px;
     }
 
+    .wsus__sellar_search form {
+        width: 50%;
+    }
 
 }
 
@@ -1051,6 +1063,11 @@
 
     .wsus__banner_img {
         height: 540px;
+        margin: 40px 0px 43px 0px;
+    }
+
+    .wsus__banner_img .banner_counter {
+        right: -25px;
     }
 
     .wsus__banner_text {
@@ -1408,8 +1425,7 @@
     }
 
     .wsus__sellar_search form {
-        width: 100%;
-        margin-top: 20px;
+        width: 60%;
     }
 
     .wsus__sellar_top img {
@@ -1650,6 +1666,7 @@
 
     .wsus__banner_img {
         height: 350px;
+        margin: 40px 0px 43px 0px;
     }
 
     .wsus__banner_text {
@@ -2257,5 +2274,8 @@
 
     /* dashboard end */
 
+    .wsus__banner_img .banner_counter {
+        right: 0;
+    }
 
 }
