@@ -7,15 +7,6 @@
     direction: ltr;
 }
 
-
-
-
-
-
-
-
-
-
 .wsus__topbar_info li a,
 .wsus__topbar_info li span {
     padding-right: 0;
@@ -88,11 +79,6 @@
     right: auto;
     left: 5px;
 }
-
-/* .wsus__banner_text ul li:first-child:after {
-    right: auto;
-    left: 0;
-} */
 
 .wsus__banner_text ul li:first-child {
     padding-left: 0;
@@ -206,9 +192,6 @@
 .wsus__single_testimonial_img {
     margin: 35px 35px 0px 0px;
 }
-
-
-
 
 
 /* about page start */
@@ -421,6 +404,16 @@
     -o-transform: rotateY(180deg);
 }
 
+.wsus__single_counter h4 {
+    padding-right: 0;
+    padding-left: 30px;
+}
+
+.wsus__single_counter h4::after {
+    right: auto;
+    left: 0;
+}
+
 .booking_bar li {
     margin-right: 0;
     margin-left: 120px;
@@ -594,6 +587,7 @@
 .wsus__subscribe_text form button {
     right: auto;
     left: 7px;
+    top: 6px;
 }
 
 .wsus__faq_area .accordion-item button {
@@ -660,6 +654,150 @@
 /* dashboard end */
 
 
+/* HOME PAGE 2 START */
+.menu_search_form button {
+    right: auto;
+    left: 0;
+}
+
+.home_2 .wsus__banner_text ul li {
+    padding-right: 0;
+}
+
+.home_2 .wsus__banner_text .select2-container .select2-selection--single .select2-selection__rendered {
+    padding-right: 40px;
+}
+
+.home_2 .wsus__banner_text ul li button {
+    right: auto;
+    left: 0;
+}
+
+.home_2 .wsus__banner_text ul li.input_area::after {
+    left: auto;
+    right: 14px;
+}
+
+.home_2 .wsus__banner_text ul li input {
+    padding-left: 0;
+    padding-right: 40px;
+}
+
+.home_2 .wsus__single_categories .shapes {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+.wsus__services_text2 img {
+    left: auto;
+    right: 30px;
+}
+
+.wsus__services_text2 ul li p span {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.wsus__services_img2 .category {
+    right: auto;
+    left: 20px;
+}
+
+.wsus__booking_service_text .select2-container .select2-selection--single .select2-selection__rendered {
+    padding-right: 15px;
+}
+
+.testimonial2 .wsus__single_testimonial .review_text::before {
+    left: auto;
+    right: -20px;
+}
+
+.testimonial2 .testi_shapes {
+    margin: 25px 0px;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
+
+.testimonial2 .wsus__single_testimonial_img img {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+/* HOME PAGE 2 END */
+
+
+/* HOME PAGE 3 START */
+.home_3 .wsus__banner_text ul li:first-child {
+    padding-right: 0;
+}
+
+.home_3 .wsus__banner_text ul li:first-child::before {
+    left: auto;
+    right: 10px;
+}
+
+.home_3 .wsus__banner_text ul li .select2-container--default .select2-selection--single .select2-selection__rendered {
+    padding-left: 25px;
+    padding-right: 30px;
+}
+
+.home_3 .banner_tag span {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.home_3 .banner_tag ul li a {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.wsus__work_sectiion_text ul li {
+    padding-left: 0;
+    padding-right: 80px;
+}
+
+.home_3 .wsus__banner_text ul li button {
+    right: auto;
+    left: 0;
+}
+
+.home_3 .wsus__banner_text ul li.input_area::after {
+    left: 0;
+    right: 14px;
+}
+
+.home_3 .wsus__banner_text ul li input {
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+.wsus__work_sectiion_text ul li span {
+    left: auto;
+    right: 0;
+}
+
+.wsus__work_sectiion_text ul li::after {
+    left: auto;
+    right: 27px;
+}
+
+.wsus__work_sectiion_img::before {
+    left: auto;
+    right: -20px;
+}
+
+.wsus__work_sectiion_img::after {
+    left: auto;
+    right: -10px;
+}
+
+/* HOME PAGE 3 END */
 
 @media (min-width: 1200px) and (max-width: 1399.99px) {
     .wsus__banner_text ul li:first-child:after {
@@ -672,7 +810,6 @@
     }
 }
 
-
 @media (min-width: 992px) and (max-width: 1199.99px) {
 
     .wsus__banner_text ul li:first-child:after {
@@ -682,8 +819,12 @@
     .wsus__single_blog_text ul li {
         margin-left: 0;
     }
-}
 
+    .home_3 .banner_tag ul li a {
+        margin-left: 10px;
+        margin-right: 0;
+    }
+}
 
 @media (min-width: 768px) and (max-width: 991.99px) {
 
@@ -695,8 +836,13 @@
         margin: 25px 0px 25px 25px;
     }
 
-}
+    /* HOME 2 START */
+    .testimonial2 .wsus__single_testimonial .review_text::before {
+        right: -10px;
+    }
 
+    /* HOME 2 END */
+}
 
 @media (min-width: 576px) and (max-width: 767.99px) {
 
@@ -731,10 +877,42 @@
         margin: 25px 0px 25px 25px;
     }
 
+    /* home page 2 start */
+    .home_2 .wsus__banner_text ul li:first-child {
+        padding-left: 0px;
+    }
 
+    .wsus__services_text2 ul li p span {
+        margin-right: 5px;
+    }
+
+    .testimonial2 .wsus__single_testimonial .review_text::before {
+        right: -13px;
+    }
+
+    .home_2 .wsus__banner_text ul li:first-child {
+        padding: 0;
+    }
+
+    /* home page 2 end */
+
+    /* home page 3 start */
+    .home_3 .wsus__banner_text ul li:first-child {
+        padding: 0;
+    }
+
+    .home_3 .banner_tag ul li a {
+        margin-left: 10px;
+        margin-right: 0;
+    }
+
+    .home_3 .wsus__work_sectiion_img {
+        margin-left: 0;
+        margin-right: 15px;
+    }
+
+    /* home page 3 end */
 }
-
-
 
 @media (max-width: 575.99px) {
 
@@ -804,5 +982,36 @@
         width: 100%;
     }
 
+    /* home page 2 start */
+    .home_2 .wsus__banner_text ul li:first-child {
+        padding-left: 0px;
+    }
 
+    .wsus__services_text2 ul li p span {
+        margin-right: 5px;
+    }
+
+    .testimonial2 .wsus__single_testimonial .review_text::before {
+        right: -13px;
+    }
+
+    /* home page 2 end */
+
+
+    /* home page 3 start */
+    .home_3 .wsus__banner_text ul li:first-child {
+        padding: 0;
+    }
+
+    .home_3 .banner_tag ul li a {
+        margin-left: 10px;
+        margin-right: 0;
+    }
+
+    .home_3 .wsus__work_sectiion_img {
+        margin-left: 0;
+        margin-right: 15px;
+    }
+
+    /* home page 3 end */
 }

@@ -58,12 +58,10 @@
 
     /* about end */
 
-
     /* blog details start */
     .wsus__single_comm_text {
         width: 81%;
     }
-
 
     .wsus__single_comment.replay .wsus__single_comm_text {
         width: 80%;
@@ -79,7 +77,6 @@
         width: 110px;
         height: 55px;
     }
-
 
     /* contact start */
     .wsus__contact_top {
@@ -123,9 +120,43 @@
         width: 33%;
     }
 
+    /* HOME 2 START */
+    .home_2 .wsus__single_categories .shapes {
+        right: -85px;
+    }
+
+    .wsus__booking_service_img {
+        height: 475px;
+    }
+
+    .wsus__booking_service_img .text {
+        padding-bottom: 35px;
+    }
+
+    .wsus__booking_service_img .text span {
+        margin-bottom: 30px;
+    }
+
+    .testimonial2 .wsus__single_testimonial {
+        padding: 20px;
+    }
+
+    .testimonial2 .wsus__single_testimonial .review_text::before {
+        top: -40px;
+        left: -3px;
+        font-size: 100px;
+    }
+
+    .wsus__single_brand {
+        height: 85px;
+    }
+
+    /* HOME 2 END */
+
+    .home_3 .wsus__app_download_img {
+        height: 400px;
+    }
 }
-
-
 
 @media (min-width: 992px) and (max-width: 1199.99px) {
 
@@ -231,15 +262,12 @@
 
     /* home page end */
 
-
-
     /* 404 start */
     .wsus__404_text {
         margin-top: 5px;
     }
 
     /* 404 end */
-
 
     /* about start */
     .wsus__work_single {
@@ -270,8 +298,6 @@
     }
 
     /* about end */
-
-
 
     /* blog details start */
     .wsus__blog_details_img {
@@ -326,7 +352,6 @@
 
     /* blog details end */
 
-
     /* blog start */
     .wsus__single_blog_text {
         margin: 15px;
@@ -347,7 +372,6 @@
 
     /* blog end */
 
-
     /* booking start */
     .wsus__booking_img {
         height: 300px;
@@ -363,7 +387,6 @@
     }
 
     /* booking end */
-
 
     /* contact start */
     .wsus__contact_top {
@@ -389,7 +412,6 @@
         font-size: 35px;
     }
 
-
     /* sellar page start */
     .wsus__features_services .prevArrow,
     .wsus__features_services .nextArrow {
@@ -406,8 +428,6 @@
     }
 
     /* sellar page end */
-
-
 
     /* service details start */
     .wsus__service_details_img {
@@ -429,15 +449,12 @@
 
     /* service details end */
 
-
     /* login start */
     .wsus__sign_in_text h2 {
         font-size: 35px;
     }
 
     /* login end */
-
-
 
     /* dashboard start */
     .wsus__dashboard_info {
@@ -463,15 +480,97 @@
         width: 37%;
     }
 
+    /* HOME PAGE 2 START */
+    .menu_search_form {
+        width: 170px;
+        margin-right: 4px;
+    }
+
+    .main_menu .nav-item .nav-link {
+        font-size: 15px;
+    }
+
+    .main_menu .wsus__right_menu li:nth-child(2) a {
+        padding: 0px 10px;
+    }
+
+    .home_2 .main_menu .navbar-brand {
+        width: 130px;
+    }
+
+    .wsus__services_text2 {
+        padding: 15px;
+    }
+
+    .wsus__services_text2 ul {
+        margin-top: 15px;
+    }
+
+    .wsus__services_text2 img {
+        left: 15px;
+    }
+
+    .wsus__services_text2 .title {
+        font-size: 20px;
+    }
+
+    .wsus__services_img2 {
+        height: 200px;
+    }
+
+    .home_2 .wsus__single_categories .shapes {
+        right: -90px;
+    }
+
+    .home_2 .wsus__booking_service_img {
+        height: 480px;
+    }
+
+    .home_2 .wsus__booking_service_img .text {
+        padding-bottom: 35px;
+    }
+
+    .home_2 .wsus__booking_service_img .text span {
+        margin-bottom: 32px;
+    }
+
+    .home_2 .wsus__app_download_text h2 {
+        font-size: 35px;
+    }
+
+    .home_2 .wsus__app_download_img {
+        height: 415px;
+        margin: 10px 0px 5px 0px;
+    }
+
+    /* HOME PAGE 2 END */
+
+
+    /* HOME PAGE 3 START */
+    .home_3 .banner_tag ul li a {
+        margin-left: 0;
+        margin-right: 10px;
+    }
+
+    .home_3 .banner_tag span {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .home_3 .wsus__app_download_img {
+        height: 340px;
+    }
+
+    .wsus__single_testimonial .review_text {
+        padding: 25px;
+    }
+
+    /* HOME PAGE 3 END */
 }
-
-
 
 @media (min-width: 768px) and (max-width: 991.99px) {
 
-
     /* home page start */
-
     .wsus__topbar_info li a,
     .wsus__topbar_info li span {
         padding-right: 0;
@@ -694,14 +793,12 @@
 
     /* home page end */
 
-
     /* 404 start */
     .wsus__404_text {
         margin-top: 5px;
     }
 
     /* 404 end */
-
 
     /* about start */
     .wsus__work_single::after {
@@ -735,7 +832,6 @@
     }
 
     /* about end */
-
 
     /* blog details start */
     .wsus__blog_details_img {
@@ -773,7 +869,6 @@
 
     /* blog details end */
 
-
     /* blog start */
 
     .wsus__pagination {
@@ -781,8 +876,6 @@
     }
 
     /* blog end */
-
-
 
     /* booking start */
     .wsus__booking_img {
@@ -828,7 +921,6 @@
     }
 
     /* contact end */
-
 
     /* faq start */
 
@@ -881,8 +973,6 @@
 
     /* saller page end */
 
-
-
     /* service details start */
     .wsus__service_details_img {
         height: 350px;
@@ -898,14 +988,12 @@
 
     /* service details end */
 
-
     /* login start */
     .wsus__sign_in_text h2 {
         font-size: 35px;
     }
 
     /* login end */
-
 
     /* dashboard start */
     .wsus__dashboard_content {
@@ -931,14 +1019,106 @@
         width: 50%;
     }
 
+    /* HOME PAGE 2 START */
+    .home_2 .navbar-toggler {
+        background: #00BF8C;
+    }
+
+    .main_menu .navbar-nav {
+        border-top: 1px solid #00BF8C;
+    }
+
+    .menu_search_form {
+        margin-bottom: 20px;
+    }
+
+    .wsus__banner_overlay {
+        padding: 0px 0px 70px 0px;
+    }
+
+    .home_2 .wsus__banner_text ul li button {
+        width: auto;
+        margin: 0;
+    }
+
+    .home_2 .wsus__banner_text .wsus__banner_search {
+        justify-content: space-between;
+    }
+
+    .wsus__services_text2 .title {
+        font-size: 20px;
+        margin: 10px 0px 20px 0px;
+    }
+
+    .wsus__booking_service_img {
+        display: none;
+    }
+
+    .wsus__booking_service_overlay {
+        padding: 70px 0px 255px 0px;
+    }
+
+    .home_2 .wsus__app_download_img {
+        margin-top: 45px;
+        margin-bottom: 20px;
+    }
+
+    .wsus__counter2_bg {
+        padding: 70px 0px 30px 0px;
+    }
+
+    .wsus__app_download2 .wsus__app_download_text {
+        margin: 0px 0px 65px 0px;
+    }
+
+    .wsus__services_text2 {
+        padding: 15px;
+    }
+
+    .wsus__services_text2 ul {
+        margin-top: 15px;
+    }
+
+    .wsus__services_text2 img {
+        left: 15px;
+    }
+
+    .home_2 .wsus__single_categories .shapes {
+        right: -90px;
+    }
+
+    .testimonial2 .wsus__single_testimonial {
+        padding: 20px;
+    }
+
+    .testimonial2 .wsus__single_testimonial .review_text::before {
+        top: -40px;
+        left: -5px;
+        font-size: 100px;
+    }
+
+    /* HOME PAGE 2 END */
+
+    /* HOME PAGE 3 START */
+    .home_3 .wsus__counter_3 {
+        padding-bottom: 30px !important;
+    }
+
+    .wsus__work_sectiion_img {
+        margin-top: 25px;
+    }
+
+    .home_3 .wsus__app_download_img {
+        height: 250px;
+    }
+
+    /* HOME PAGE 3 END */
+
 }
-
-
 
 @media (min-width: 576px) and (max-width: 767.99px) {
 
     /* home page start */
-
     .wsus__topbar_info li a,
     .wsus__topbar_info li span {
         padding-right: 0;
@@ -1161,7 +1341,6 @@
 
     /* home page end */
 
-
     /* 404 start */
     .wsus__404_text h2 {
         font-size: 100px;
@@ -1176,7 +1355,6 @@
     }
 
     /* 404 end */
-
 
     /* about start */
     .wsus__breadcrumb nav h1 {
@@ -1235,7 +1413,6 @@
     }
 
     /* about end */
-
 
     /* blog details start */
     .wsus__blog_details_img {
@@ -1311,7 +1488,6 @@
 
     /* blog end */
 
-
     /* booking start */
     .booking_bar li {
         width: 40px;
@@ -1360,7 +1536,6 @@
 
     /* booking end */
 
-
     /* contact start */
     .wsus__contact_top {
         padding: 20px;
@@ -1386,7 +1561,6 @@
 
     /* contact end */
 
-
     /* faq start */
 
     .wsus__faq_area {
@@ -1398,7 +1572,6 @@
     }
 
     /* faq end */
-
 
     /* saller page start */
     .wsus__sellar_top .text h2 {
@@ -1445,7 +1618,6 @@
 
     /* saller page end */
 
-
     /* service details start */
     .wsus__service_details_img {
         height: 250px;
@@ -1468,7 +1640,6 @@
     }
 
     /* login end */
-
 
     /* dashboard start */
     .wsus__dashboard_content {
@@ -1520,11 +1691,126 @@
         width: 110px;
     }
 
+    /* HOME PAGE 2 START */
+    .home_2 .navbar-toggler {
+        background: #00BF8C;
+    }
+
+    .main_menu .navbar-nav {
+        border-top: 1px solid #00BF8C;
+    }
+
+    .menu_search_form {
+        margin-bottom: 20px;
+    }
+
+    .wsus__banner_overlay {
+        padding: 0px 0px 70px 0px;
+    }
+
+    .home_2 .wsus__banner_text ul li button {
+        width: auto;
+        margin: 0;
+    }
+
+    .home_2 .wsus__banner_text .wsus__banner_search {
+        justify-content: space-between;
+    }
+
+    .wsus__services_text2 .title {
+        font-size: 20px;
+        margin: 10px 0px 20px 0px;
+    }
+
+    .wsus__booking_service_img {
+        display: none;
+    }
+
+    .wsus__booking_service_text h2 {
+        font-size: 30px;
+    }
+
+    .wsus__booking_service_overlay {
+        padding: 70px 0px 255px 0px;
+    }
+
+    .home_2 .wsus__app_download_img {
+        margin-top: 45px;
+        margin-bottom: 20px;
+    }
+
+    .wsus__counter2_bg {
+        padding: 70px 0px 30px 0px;
+    }
+
+    .wsus__app_download2 {
+        padding-top: 0 !important;
+    }
+
+    /* HOME PAGE 2 END */
+
+
+    /* HOME PAGE 3 START */
+    .home_3 .navbar-toggler {
+        background: linear-gradient(70.49deg, #6765F9 0%, #2251E2 98.96%);
+    }
+
+    .home_3 .wsus__banner_text .wsus__banner_search {
+        justify-content: space-between;
+    }
+
+    .home_3 .wsus__banner_text ul li button {
+        margin: 0;
+    }
+
+    .home_3 .banner_tag ul li a {
+        margin-left: 0;
+        margin-right: 10px;
+    }
+
+    .home_3 .banner_tag span {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .home_3 .wsus__banner_text {
+        margin: 70px 0px 60px 0px;
+    }
+
+    .home_3 .wsus__counter_3 {
+        padding-bottom: 25px !important;
+    }
+
+    .wsus__work_sectiion_img {
+        height: 270px;
+        margin-left: 15px;
+        margin-top: 25px;
+    }
+
+    .wsus__work_sectiion_img::after {
+        height: 89%;
+    }
+
+    .wsus__work_sectiion_img::before {
+        height: 78%;
+    }
+
+    .home_3 .wsus__seller_join_text h3 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .home_3 .wsus__subscribe_text form input {
+        padding: 17px 20px;
+    }
+
+    .home_3 .wsus__sellar_bg {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    /* HOME PAGE 3 END */
 }
-
-
-
-
 
 @media (max-width: 575.99px) {
 
@@ -1624,7 +1910,7 @@
     }
 
     .wsus__banner_text h1 {
-        font-size: 30px;
+        font-size: 30px !important;
     }
 
     .wsus__banner_text p {
@@ -1646,7 +1932,7 @@
     }
 
     .wsus__banner_text ul li {
-        width: 100%;
+        width: 100% !important;
         padding: 5px 20px;
         border-bottom: 1px solid #eee;
     }
@@ -1813,7 +2099,6 @@
 
     /* home page end */
 
-
     /* 404 start */
     .wsus__404_text h2 {
         font-size: 100px;
@@ -1828,7 +2113,6 @@
     }
 
     /* 404 end */
-
 
     /* about start */
     .wsus__breadcrumb nav h1 {
@@ -1893,7 +2177,6 @@
     }
 
     /* about end */
-
 
     /* blog details start */
     .wsus__blog_details_img {
@@ -1996,7 +2279,6 @@
 
     /* blog details end */
 
-
     /* blog start */
     .wsus__pagination ul li a {
         width: 35px;
@@ -2011,7 +2293,6 @@
     }
 
     /* blog end */
-
 
     /* booking start */
     .wsus__booking_area {
@@ -2081,7 +2362,6 @@
 
     /* booking  end */
 
-
     /* contact start */
     .wsus__contact_top {
         padding: 35px;
@@ -2107,7 +2387,6 @@
 
     /* contact end */
 
-
     /* faq start */
 
     .wsus__faq_area {
@@ -2119,7 +2398,6 @@
     }
 
     /* faq end */
-
 
     /* saller page start */
     .wsus__sellar_top .text h2 {
@@ -2155,7 +2433,6 @@
     }
 
     /* saller page end */
-
 
     /* service details start */
     .wsus__service_details_img {
@@ -2201,7 +2478,6 @@
 
     /* service details end */
 
-
     /* login start */
     .wsus__sign_in_text {
         padding: 15px;
@@ -2212,7 +2488,6 @@
     }
 
     /* login end */
-
 
     /* dashboard start */
     .wsus__dashboard_content {
@@ -2278,4 +2553,195 @@
         right: 0;
     }
 
+    /* HOME PAGE 2 START */
+    .home_2 .navbar-toggler {
+        background: #00BF8C;
+    }
+
+    .main_menu .navbar-nav {
+        border-top: 1px solid #00BF8C;
+    }
+
+    .menu_search_form {
+        margin-bottom: 20px;
+    }
+
+    .wsus__banner_overlay {
+        padding: 0px 0px 70px 0px;
+    }
+
+    .home_2 .wsus__banner_text ul li {
+        margin: 0px 0px 10px 0px;
+        border: none;
+    }
+
+    .home_2 .wsus__banner_text ul li button {
+        position: static;
+        margin: 10px 0px 0px 0px;
+        width: 100%;
+    }
+
+    .home_2 .wsus__banner_text ul li.input_area::after {
+        top: 20%;
+    }
+
+    .home_2 .wsus__banner_text .wsus__banner_search {
+        padding: 10px 10px 0px 10px;
+    }
+
+    .home_2 .wsus__single_categories .shapes {
+        display: none;
+    }
+
+    .home_2 .wsus__single_categories {
+        width: 100%;
+    }
+
+    .home_2 .wsus__single_categories span {
+        margin: 0 auto;
+    }
+
+    .wsus__services_text2 {
+        padding: 15px;
+    }
+
+    .wsus__services_text2 ul li p span {
+        margin-left: 5px;
+    }
+
+    .wsus__services_img2 {
+        height: 200px;
+    }
+
+    .testimonial2 .wsus__single_testimonial .review_text::before {
+        top: -45px;
+        left: -14px;
+        font-size: 100px;
+    }
+
+    .wsus__services_text2 img {
+        left: 15px;
+    }
+
+    .wsus__services_text2 ul {
+        margin-top: 17px;
+    }
+
+    .wsus__services_text2 .title {
+        font-size: 20px;
+        margin: 10px 0px 20px 0px;
+    }
+
+    .wsus__booking_service_img {
+        display: none;
+    }
+
+    .wsus__booking_service_text {
+        padding: 15px;
+    }
+
+    .wsus__booking_service_text h2 {
+        font-size: 25px;
+    }
+
+    .wsus__booking_service_overlay {
+        padding: 70px 0px 255px 0px;
+    }
+
+    .home_2 .wsus__app_download_img {
+        margin-top: 45px;
+        margin-bottom: 20px;
+    }
+
+    .testimonial2 .wsus__single_testimonial {
+        padding: 20px;
+    }
+
+    .wsus__counter2_bg {
+        padding: 70px 0px 30px 0px;
+    }
+
+    /* HOME PAGE 2 END */
+
+
+    /* HOME PAGE 3 START */
+    .home_3 .navbar-toggler {
+        background: linear-gradient(70.49deg, #6765F9 0%, #2251E2 98.96%);
+    }
+
+    .home_3 .wsus__banner_text ul li {
+        margin-bottom: 10px;
+    }
+
+    .home_3 .wsus__banner_text ul li button {
+        position: inherit;
+        width: 100%;
+        margin: 0;
+        margin-top: 10px;
+    }
+
+    .home_3 .wsus__banner_text .wsus__banner_search {
+        padding-bottom: 0;
+    }
+
+    .home_3 .wsus__banner_text ul li.input_area::after {
+        top: 12%;
+        transform: translate(0);
+        -webkit-transform: translate(0);
+        -moz-transform: translate(0);
+        -ms-transform: translate(0);
+        -o-transform: translate(0);
+    }
+
+    .home_3 .banner_tag ul li a {
+        margin-left: 0;
+        margin-right: 10px;
+    }
+
+    .home_3 .banner_tag span {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .home_3 .wsus__banner_text {
+        margin: 70px 0px 60px 0px;
+    }
+
+    .home_3 .wsus__counter_3 {
+        padding-bottom: 25px !important;
+    }
+
+    .wsus__work_sectiion_img {
+        height: 270px;
+        margin-left: 15px;
+        margin-top: 25px;
+    }
+
+    .wsus__work_sectiion_img::after {
+        height: 89%;
+    }
+
+    .wsus__work_sectiion_img::before {
+        height: 78%;
+    }
+
+    .home_3 .wsus__app_download_img {
+        height: 250px;
+    }
+
+    .home_3 .wsus__seller_join_text h3 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .home_3 .wsus__subscribe_text form input {
+        padding: 17px 20px;
+    }
+
+    .home_3 .wsus__sellar_bg {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    /* HOME PAGE 3 END */
 }
