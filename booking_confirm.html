@@ -203,13 +203,37 @@
                             <p><span>Order Note:</span> </p>
                         </div>
                     </div>
-                    <ul class="wsus__booking_payment">
-                        <li><img src="images/pay_1.jpg" alt="payment img" class="img-fluid w-100"></li>
-                        <li><img src="images/pay_2.jpg" alt="payment img" class="img-fluid w-100"></li>
-                        <li><img src="images/pay_3.jpg" alt="payment img" class="img-fluid w-100"></li>
-                        <li><img src="images/pay_4.jpg" alt="payment img" class="img-fluid w-100"></li>
-                        <li><img src="images/pay_5.jpg" alt="payment img" class="img-fluid w-100"></li>
-                        <li><img src="images/pay_6.jpg" alt="payment img" class="img-fluid w-100"></li>
+                    <ul class="wsus__booking_payment d-flex flex-wrap">
+                        <li>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                <img src="images/pay_1.jpg" alt="payment img" class="img-fluid w-100">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                <img src="images/pay_2.jpg" alt="payment img" class="img-fluid w-100">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                <img src="images/pay_3.jpg" alt="payment img" class="img-fluid w-100">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                <img src="images/pay_4.jpg" alt="payment img" class="img-fluid w-100">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                <img src="images/pay_5.jpg" alt="payment img" class="img-fluid w-100">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                <img src="images/pay_6.jpg" alt="payment img" class="img-fluid w-100">
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="col-xl-4 col-lg-4">
@@ -226,6 +250,20 @@
                             </ul>
                             <div class="wsus__booking_cost">
                                 <p>Package Fee <span>$250.00</span></p>
+                                <ul>
+                                    <li>
+                                        <p>electronic <b>x2</b></p> <span>$30.00</span>
+                                    </li>
+                                    <li>
+                                        <p>electric <b>x4</b></p> <span>$25.00</span>
+                                    </li>
+                                    <li>
+                                        <p>car cleaning <b>x3</b></p> <span>$15.00</span>
+                                    </li>
+                                    <li>
+                                        <p>house cleaning <b>x1</b></p> <span>$20.00</span>
+                                    </li>
+                                </ul>
                                 <h4>Extra Service <span>$240</span></h4>
                                 <p>Subtotal <span>$490.00</span></p>
                                 <p>Tax(0%)<span>$00.00</span></p>
@@ -237,6 +275,57 @@
             </div>
         </div>
     </section>
+
+    <div class="wsus__payment_modal modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Cash on delivery</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="row">
+                            <div class="col-xl-12">
+                                <input type="text" placeholder="Card Number">
+                            </div>
+                            <div class="col-xl-6 col-sm-6">
+                                <input type="text" placeholder="Exp: Month">
+                            </div>
+                            <div class="col-xl-6 col-sm-6">
+                                <input type="text" placeholder="Exp: Year">
+                            </div>
+                            <div class="col-xl-12">
+                                <input type="text" placeholder="CVV">
+                            </div>
+                            <div class="col-xl-12">
+                                <select>
+                                    <option value="">Home Move</option>
+                                    <option value="">barisal</option>
+                                    <option value="">khulna</option>
+                                    <option value="">rajshahi</option>
+                                    <option value="">bogura</option>
+                                </select>
+                            </div>
+                            <div class="col-xl-12">
+                                <textarea cols="3" rows="3" placeholder="Message"></textarea>
+                            </div>
+                            <div class="col-xl-12">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident esse ducimus
+                                    Quasi architecto repellendus officia sequi maiores ullam deserunt sunt mollitia.
+                                    Aut aperiam iste doloribus quod.</p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-danger">Checkout</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <!--=========================
         BOOKING CONFIRM END 
     ==========================-->

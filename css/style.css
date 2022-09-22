@@ -2772,7 +2772,7 @@ footer {
 .wsus__booking_summery h3 {
     font-size: 24px;
     font-weight: 700;
-    color: var(--colorWhite);
+    color: var(--colorWhite) !important;
     border-bottom: 1px solid #ffffff54;
     margin: 25px 30px 0 30px;
     padding-bottom: 20px;
@@ -2818,6 +2818,40 @@ footer {
 }
 
 .wsus__booking_cost p span {
+    color: var(--colorWhite);
+}
+
+.wsus__booking_cost ul {
+    padding: 0;
+}
+
+.wsus__booking_cost ul li {
+    color: var(--colorWhite);
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding: 0;
+}
+
+.wsus__booking_cost ul li p {
+    margin: 0;
+}
+
+.wsus__booking_cost ul li::after {
+    display: none;
+}
+
+.wsus__booking_cost ul li p b {
+    font-weight: 400;
+    color: var(--colorWhite);
+    font-size: 15px;
+    text-transform: lowercase;
+    margin-left: 10px;
+}
+
+.wsus__booking_cost ul li span {
     color: var(--colorWhite);
 }
 
@@ -2916,6 +2950,42 @@ footer {
     margin-right: 10px;
     border-radius: 5px;
     overflow: hidden;
+}
+
+.wsus__booking_payment li a {
+    width: 100%;
+    height: 100%;
+}
+
+.wsus__payment_modal .modal-header h5 {
+    font-size: 18px;
+    width: 100%;
+    font-weight: 600;
+}
+
+.wsus__payment_modal .modal-body input,
+.wsus__payment_modal .modal-body textarea,
+.wsus__payment_modal select {
+    width: 100%;
+    border: 1px solid #ddd;
+    margin-bottom: 25px;
+    padding: 10px;
+    color: var(--colorSecondary);
+    font-size: 16px;
+    border-radius: 5px;
+    resize: none;
+    font-weight: 300;
+    outline: none;
+}
+
+.wsus__payment_modal .modal-footer {
+    margin-top: 5px;
+}
+
+.wsus__payment_modal select {}
+
+.wsus__payment_modal select option {
+    text-transform: capitalize;
 }
 
 /*================================

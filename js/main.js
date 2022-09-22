@@ -23,7 +23,7 @@ $(function () {
     });
 
 
-    //=========main.js=========   
+    //=========counter.js=========   
     $('.counter').countUp();
 
 
