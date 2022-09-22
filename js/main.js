@@ -150,6 +150,7 @@ $(function () {
         top: 95,
     })
 
+
     //=========calender.js=========   
     $(function () {
         $('#calendar_js').calendar({
@@ -157,7 +158,6 @@ $(function () {
             days: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
         });
     });
-
 
 
     //=======TESTIMONIAL SLIDER====== 
