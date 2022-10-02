@@ -799,6 +799,29 @@
 
 /* HOME PAGE 3 END */
 
+
+/* JOIN SELLER PAGE START */
+.wsus__sellar_joining_top .img {
+    margin-right: 0;
+    margin-left: 40px;
+}
+
+.wsus__sellar_joining .form-check label {
+    margin-left: 0;
+    margin-right: 25px;
+}
+
+.wsus__sellar_joining .form-check input {
+    float: right;
+}
+
+input:checked[type=checkbox] {
+    transform: rotateY(180deg);
+}
+
+/* JOIN SELLER PAGE END */
+
+
 @media (min-width: 1200px) and (max-width: 1399.99px) {
     .wsus__banner_text ul li:first-child:after {
         left: -27px;

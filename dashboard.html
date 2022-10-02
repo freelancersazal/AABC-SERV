@@ -198,7 +198,7 @@
                                 <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill"
                                     data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
                                     aria-selected="true"><span><i class="fas fa-user"></i></span> Parsonal Info</button>
-                                <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill"
+                                <button class="nav-link " id="v-pills-profile-tab" data-bs-toggle="pill"
                                     data-bs-target="#v-pills-profile" type="button" role="tab"
                                     aria-controls="v-pills-profile" aria-selected="false"><span><i
                                             class="fas fa-bags-shopping"></i></span> Order</button>
@@ -206,11 +206,14 @@
                                     data-bs-target="#v-pills-messages" type="button" role="tab"
                                     aria-controls="v-pills-messages" aria-selected="false"><span><i
                                             class="fas fa-star"></i></span> Reviews</button>
+                                <button class="nav-link" id="v-pills-messages-tab2" data-bs-toggle="pill"
+                                    data-bs-target="#v-pills-messages2" type="button" role="tab"
+                                    aria-controls="v-pills-messages2" aria-selected="false"><span><i
+                                            class="fas fa-user-headset"></i></span> Support Ticket</button>
                                 <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill"
                                     data-bs-target="#v-pills-settings" type="button" role="tab"
                                     aria-controls="v-pills-settings" aria-selected="false"><span><i
                                             class="fas fa-user-lock"></i></span> Change Password </button>
-
                                 <button class="nav-link" type="button" data-bs-toggle="modal"
                                     data-bs-target="#exampleModal"><span> <i class="fas fa-sign-out-alt"></i> </span>
                                     Logout</button>
@@ -255,13 +258,10 @@
                                             <div class="nav nav-pills d-flex flex-wrap justify-content-between align-items-center"
                                                 id="pills-tab" role="tablist">
                                                 <h4>Parsonal Information</h4>
-                                                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
-                                                    data-bs-target="#pills-profile" type="button" role="tab"
-                                                    aria-controls="pills-profile" aria-selected="false">edit</button>
-
+                                                <button class="nav-link dash_info_btn">edit</button>
                                             </div>
-                                            <div class="tab-content" id="pills-tabContent">
-                                                <div class="tab-pane fade show active" id="pills-home" role="tabpanel">
+                                            <div>
+                                                <div class="wsus__dashboard_info_item">
                                                     <p><span>Name:</span> Martan Jhon</p>
                                                     <p><span>Email:</span> demoemail@gmail.com</p>
                                                     <p><span>Phone:</span> 023 434 54354</p>
@@ -271,8 +271,8 @@
                                                     <p><span>Address:</span> 374 FA Tower, William Road, House no 82
                                                     </p>
                                                 </div>
-                                                <div class="tab-pane fade" id="pills-profile" role="tabpanel"
-                                                    aria-labelledby="pills-profile-tab">
+
+                                                <div class="wsus__dashboard_info_form">
                                                     <div class="wsus__review_input">
                                                         <form>
                                                             <div class="row">
@@ -329,10 +329,11 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                                <div class="tab-pane fade " id="v-pills-profile" role="tabpanel"
                                     aria-labelledby="v-pills-profile-tab">
                                     <div class="wsus_dashboard_body">
                                         <div class="wsus_dashboard_order">
+                                            <h3>order history</h3>
                                             <div class="table-responsive">
                                                 <table class="table table-striped">
                                                     <tbody>
@@ -356,7 +357,7 @@
                                                             <td>
                                                                 <h5>$757</h5>
                                                             </td>
-                                                            <td><a href="#">View Details</a></td>
+                                                            <td><a class="view_invoice">View Details</a></td>
                                                         </tr>
                                                         <tr>
                                                             <td>
@@ -371,7 +372,7 @@
                                                             <td>
                                                                 <h5>$457</h5>
                                                             </td>
-                                                            <td><a href="#">View Details</a></td>
+                                                            <td><a class="view_invoice">View Details</a></td>
                                                         </tr>
                                                         <tr>
                                                             <td>
@@ -386,7 +387,7 @@
                                                             <td>
                                                                 <h5>$747</h5>
                                                             </td>
-                                                            <td><a href="#">View Details</a></td>
+                                                            <td><a class="view_invoice">View Details</a></td>
                                                         </tr>
                                                         <tr>
                                                             <td>
@@ -401,7 +402,7 @@
                                                             <td>
                                                                 <h5>$757</h5>
                                                             </td>
-                                                            <td><a href="#">View Details</a></td>
+                                                            <td><a class="view_invoice">View Details</a></td>
                                                         </tr>
                                                         <tr>
                                                             <td>
@@ -416,7 +417,7 @@
                                                             <td>
                                                                 <h5>$457</h5>
                                                             </td>
-                                                            <td><a href="#">View Details</a></td>
+                                                            <td><a class="view_invoice">View Details</a></td>
                                                         </tr>
                                                         <tr>
                                                             <td>
@@ -431,7 +432,7 @@
                                                             <td>
                                                                 <h5>$747</h5>
                                                             </td>
-                                                            <td><a href="#">View Details</a></td>
+                                                            <td><a class="view_invoice">View Details</a></td>
                                                         </tr>
                                                         <tr>
                                                             <td>
@@ -446,7 +447,7 @@
                                                             <td>
                                                                 <h5>$757</h5>
                                                             </td>
-                                                            <td><a href="#">View Details</a></td>
+                                                            <td><a class="view_invoice">View Details</a></td>
                                                         </tr>
                                                         <tr>
                                                             <td>
@@ -461,7 +462,7 @@
                                                             <td>
                                                                 <h5>$457</h5>
                                                             </td>
-                                                            <td><a href="#">View Details</a></td>
+                                                            <td><a class="view_invoice">View Details</a></td>
                                                         </tr>
                                                         <tr>
                                                             <td>
@@ -476,15 +477,160 @@
                                                             <td>
                                                                 <h5>$747</h5>
                                                             </td>
-                                                            <td><a href="#">View Details</a></td>
+                                                            <td><a class="view_invoice">View Details</a></td>
                                                         </tr>
                                                     </tbody>
                                                 </table>
                                             </div>
                                         </div>
+                                        <div class="wsus__invoice">
+                                            <a class="go_back"><i class="fas fa-long-arrow-alt-left"></i> go back</a>
+                                            <div class="wsus__invoice_header">
+                                                <p>
+                                                    <b>Space Race</b>
+                                                    Order ID: <span>#4345</span>
+                                                </p>
+                                                <p>
+                                                    <b>Date:</b>
+                                                    <span>Sep 22, 2022</span>
+                                                </p>
+                                            </div>
+                                            <div class="wsus__invoice_body">
+                                                <div class="table-responsive">
+                                                    <table class="table">
+                                                        <tbody>
+                                                            <tr>
+                                                                <th class="package">Service Package Include</th>
+                                                                <th class="price"></th>
+                                                                <th class="qnty"></th>
+                                                                <th class="total"></th>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="package">
+                                                                    <p>Digital Merketing</p>
+                                                                    <p>Company Profile Build</p>
+                                                                    <p>Business Growing</p>
+                                                                    <p>How to Profit</p>
+                                                                </td>
+                                                                <td class="price"></td>
+                                                                <td class="qnty"></td>
+                                                                <td class="total"></td>
+                                                            </tr>
+                                                            <tr class="border_none">
+                                                                <th class="package">Additional Service</th>
+                                                                <th class="price">Price</th>
+                                                                <th class="qnty">Quantity</th>
+                                                                <th class="total">Total</th>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="package">
+                                                                    <p>Electronical</p>
+                                                                </td>
+                                                                <td class="price">
+                                                                    <b>$120</b>
+                                                                </td>
+                                                                <td class="qnty">
+                                                                    <b>2</b>
+                                                                </td>
+                                                                <td class="total">
+                                                                    <b>$240</b>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                            <div class="wsus__invoice_footer">
+                                                <div class="row">
+                                                    <div class="col-xl-7">
+                                                        <div class="wsus__invoice_footer_info">
+                                                            <h3>Booking Information</h3>
+                                                            <p><span>name: </span> Garikoka Thomash</p>
+                                                            <p><span>email:</span> infoyour@gmail.com</p>
+                                                            <p><span>phone: </span> +88 0140 8317188</p>
+                                                            <p><span>post code:</span> 1207</p>
+                                                            <p><span>address:</span> 374 FA Tower, William S Bloibvd
+                                                                2721, IL,
+                                                                USA</p>
+                                                            <p><span>order note:</span> </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-5">
+                                                        <div class="wsus__invoice_footer_total">
+                                                            <h5>Subtotal <span>$240</span></h5>
+                                                            <h5 class="tax">Tax% <span>+$10</span></h5>
+                                                            <h5 class="total_tk">Total <span>$50</span></h5>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="wsus__invoice_footer_request">
+                                                <h4>Order Complete Request by Provider</h4>
+                                                <p><span>Request Date</span> 11:22 PM, 29 Sep 2022</p>
+                                                <p><span>Resone</span> Plese approved this order</p>
+                                            </div>
+
+                                            <button type="button" class="common_btn order_request_btn"
+                                                data-bs-toggle="modal" data-bs-target="#exampleModal_invoice">order
+                                                request
+                                            </button>
+
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="exampleModal_invoice" tabindex="-1"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title" id="exampleModalLabel">Request Order
+                                                            </h5>
+                                                            <button type="button" class="btn-close"
+                                                                data-bs-dismiss="modal" aria-label="Close"></button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <div class="wsus__review_input">
+                                                                <form>
+                                                                    <div class="row">
+                                                                        <div class="col-xl-12">
+                                                                            <fieldset>
+                                                                                <legend>select order*</legend>
+                                                                                <select>
+                                                                                    <option value="">Select</option>
+                                                                                    <option value="">barisal</option>
+                                                                                    <option value="">khulna</option>
+                                                                                    <option value="">rajshahi</option>
+                                                                                    <option value="">bogura</option>
+                                                                                </select>
+                                                                            </fieldset>
+                                                                        </div>
+                                                                        <div class="col-xl-12">
+                                                                            <fieldset>
+                                                                                <legend>subject*</legend>
+                                                                                <input type="text"
+                                                                                    placeholder="Subject">
+                                                                            </fieldset>
+                                                                        </div>
+                                                                        <div class="col-xl-12">
+                                                                            <fieldset>
+                                                                                <legend>message*</legend>
+                                                                                <textarea rows="5"
+                                                                                    placeholder="Message"></textarea>
+                                                                            </fieldset>
+                                                                            <button type="submit"
+                                                                                class="common_btn mt_20">Submit</button>
+                                                                        </div>
+                                                                    </div>
+                                                                </form>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+                                <div class="tab-pane fade " id="v-pills-messages" role="tabpanel"
                                     aria-labelledby="v-pills-messages-tab">
                                     <div class="wsus_dashboard_body dashboard_review">
                                         <h3>review</h3>
@@ -551,9 +697,269 @@
                                         <a href="#" class="see_review">View All Reviews</a>
                                     </div>
                                 </div>
+                                <div class="tab-pane fade " id="v-pills-messages2" role="tabpanel"
+                                    aria-labelledby="v-pills-messages-tab2">
+                                    <div class="wsus_dashboard_body">
+                                        <div class="support_ticket">
+                                            <div class="wsus__support_ticket_top">
+                                                <h3>Support Ticket</h3>
+                                                <div class="right">
+                                                    <a class="common_btn order_request_btn" data-bs-toggle="modal"
+                                                        data-bs-target="#exampleModal_ticket">Open Ticket</a>
+                                                    <form>
+                                                        <input type="text" placeholder="Search Ticket">
+                                                        <button><i class="far fa-search"></i></button>
+                                                    </form>
+                                                </div>
+                                            </div>
+
+                                            <div class="wsus__ticket_item">
+                                                <div class="table-responsive">
+                                                    <table class="table">
+                                                        <tbody>
+                                                            <tr>
+                                                                <th class="sn">SN</th>
+                                                                <th class="from">from</th>
+                                                                <th class="info">Ticket Info</th>
+                                                                <th class="status">Status</th>
+                                                                <th class="action">Action</th>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="sn">
+                                                                    <p>01</p>
+                                                                </td>
+                                                                <td class="from">
+                                                                    <p>Name: <span>Akamista</span></p>
+                                                                    <p>User Type: Provider</p>
+                                                                    <p>Email: infoyour@gmail.com</p>
+                                                                </td>
+                                                                <td class="info">
+                                                                    <p>Subject: Test System</p>
+                                                                    <p>Ticket Id: 585646</p>
+                                                                    <p>Order Id: <span>2365</span></p>
+                                                                    <p>Created: 09:10am, 29 Sep 2022</p>
+                                                                </td>
+                                                                <td class="status">
+                                                                    <span class="active">active</span>
+                                                                </td>
+                                                                <td class="action">
+                                                                    <a class="ticket_invoice_view"><i
+                                                                            class="far fa-eye"></i></a>
+                                                                    <a class="del_ticket" href="#"><i
+                                                                            class="fas fa-trash-alt"></i></a>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="sn">
+                                                                    <p>02</p>
+                                                                </td>
+                                                                <td class="from">
+                                                                    <p>Name: <span>Akamista</span></p>
+                                                                    <p>User Type: Provider</p>
+                                                                    <p>Email: infoyour@gmail.com</p>
+                                                                </td>
+                                                                <td class="info">
+                                                                    <p>Subject: Test System</p>
+                                                                    <p>Ticket Id: 585646</p>
+                                                                    <p>Order Id: <span>2365</span></p>
+                                                                    <p>Created: 09:10am, 29 Sep 2022</p>
+                                                                </td>
+                                                                <td class="status">
+                                                                    <span class="closed">closed</span>
+                                                                </td>
+                                                                <td class="action">
+                                                                    <a class="ticket_invoice_view"><i
+                                                                            class="far fa-eye"></i></a>
+                                                                    <a class="del_ticket" href="#"><i
+                                                                            class="fas fa-trash-alt"></i></a>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="sn">
+                                                                    <p>03</p>
+                                                                </td>
+                                                                <td class="from">
+                                                                    <p>Name: <span>Akamista</span></p>
+                                                                    <p>User Type: Provider</p>
+                                                                    <p>Email: infoyour@gmail.com</p>
+                                                                </td>
+                                                                <td class="info">
+                                                                    <p>Subject: Test System</p>
+                                                                    <p>Ticket Id: 585646</p>
+                                                                    <p>Order Id: <span>2365</span></p>
+                                                                    <p>Created: 09:10am, 29 Sep 2022</p>
+                                                                </td>
+                                                                <td class="status">
+                                                                    <span class="active">active</span>
+                                                                </td>
+                                                                <td class="action">
+                                                                    <a class="ticket_invoice_view"><i
+                                                                            class="far fa-eye"></i></a>
+                                                                    <a class="del_ticket" href="#"><i
+                                                                            class="fas fa-trash-alt"></i></a>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="sn">
+                                                                    <p>04</p>
+                                                                </td>
+                                                                <td class="from">
+                                                                    <p>Name: <span>Akamista</span></p>
+                                                                    <p>User Type: Provider</p>
+                                                                    <p>Email: infoyour@gmail.com</p>
+                                                                </td>
+                                                                <td class="info">
+                                                                    <p>Subject: Test System</p>
+                                                                    <p>Ticket Id: 585646</p>
+                                                                    <p>Order Id: <span>2365</span></p>
+                                                                    <p>Created: 09:10am, 29 Sep 2022</p>
+                                                                </td>
+                                                                <td class="status">
+                                                                    <span class="closed">closed</span>
+                                                                </td>
+                                                                <td class="action">
+                                                                    <a class="ticket_invoice_view"><i
+                                                                            class="far fa-eye"></i></a>
+                                                                    <a class="del_ticket" href="#"><i
+                                                                            class="fas fa-trash-alt"></i></a>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+
+                                            <div class="wsus__support_tecket_footer">
+                                                <p>Showing 1 to 5 of 20 entries</p>
+                                                <ul class="d-flex">
+                                                    <li><a class="common_btn" href="#">Previous</a></li>
+                                                    <li><a class="common_btn" href="#">next</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="wsus__ticket_list_view">
+                                            <div class="row">
+                                                <div class="col-xl-8">
+                                                    <div class="ticket_list_view_area dashboard_review">
+                                                        <a class="go_ticket"><i class="fas fa-long-arrow-alt-left"></i>
+                                                            go back</a>
+                                                        <div class="wsus__support_ticket_top p-0">
+                                                            <h3>Support Ticket</h3>
+                                                            <div class="right">
+                                                                <form>
+                                                                    <input type="text" placeholder="Search Ticket">
+                                                                    <button><i class="far fa-search"></i></button>
+                                                                </form>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="wsus__support_ticket_single">
+                                                            <h5>Cannot Access the System <span>3h ago</span></h5>
+                                                            <h6>Akamista <span>(Author)</span></h6>
+                                                            <p>Sure there isn't anything embarrasxsing hidden in the
+                                                                middles a of
+                                                                repeat predefined chunks</p>
+                                                            <span class="urgent">Urgent</span>
+                                                        </div>
+                                                        <div class="wsus__support_ticket_single">
+                                                            <h5>Cannot Access the System <span>3h ago</span></h5>
+                                                            <h6>Akamista <span>(Author)</span></h6>
+                                                            <p>Sure there isn't anything embarrasxsing hidden in the
+                                                                middles a of
+                                                                repeat predefined chunks</p>
+                                                            <span class="urgent">Urgent</span>
+                                                        </div>
+                                                        <div class="wsus__support_ticket_single">
+                                                            <h5>Cannot Access the System <span>3h ago</span></h5>
+                                                            <h6>Akamista <span>(Author)</span></h6>
+                                                            <p>Sure there isn't anything embarrasxsing hidden in the
+                                                                middles a of
+                                                                repeat predefined chunks</p>
+                                                            <span class="urgent">Urgent</span>
+                                                        </div>
+
+                                                        <form class="ticket_list_view_form">
+                                                            <textarea rows="4"
+                                                                placeholder="Typing Here......."></textarea>
+                                                            <input type="file">
+                                                            <p>Maximum file size 2MB</p>
+                                                            <button type="submit" class="common_btn">Submit Now</button>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-4">
+                                                    <div class="ticket_list_view_sidebar dashboard_review">
+                                                        <h4>Ticket Info</h4>
+                                                        <p>Subject: Test System</p>
+                                                        <p>Ticket Id: 585646</p>
+                                                        <p>Order Id: <span>2365</span></p>
+                                                        <p>Created: 09:10am, 29 Sep 2022</p>
+                                                        <p>Status: <b>active</b></p>
+                                                        <br>
+                                                        <h4>User Info</h4>
+                                                        <p>Name: <span>Akamista</span></p>
+                                                        <p>User Type: Provider</p>
+                                                        <p>Email: infoyour@gmail.com</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="wsus__ticket_modal">
+                                            <div class="modal fade" id="exampleModal_ticket" tabindex="-1"
+                                                aria-labelledby="exampleModal_ticket" aria-hidden="true">
+                                                <div class="modal-dialog">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title" id="exampleModalLabel0">Open Ticket
+                                                            </h5>
+                                                            <button type="button" class="btn-close"
+                                                                data-bs-dismiss="modal" aria-label="Close"></button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <div class="wsus__review_input">
+                                                                <form>
+                                                                    <div class="row">
+                                                                        <div class="col-xl-12">
+                                                                            <fieldset>
+                                                                                <legend>select order*</legend>
+                                                                                <select>
+                                                                                    <option value="">Select</option>
+                                                                                    <option value="">barisal</option>
+                                                                                    <option value="">khulna</option>
+                                                                                    <option value="">rajshahi</option>
+                                                                                    <option value="">bogura</option>
+                                                                                </select>
+                                                                            </fieldset>
+                                                                        </div>
+                                                                        <div class="col-xl-12">
+                                                                            <fieldset>
+                                                                                <legend>subject*</legend>
+                                                                                <input type="text"
+                                                                                    placeholder="Subject">
+                                                                            </fieldset>
+                                                                        </div>
+                                                                        <div class="col-xl-12">
+                                                                            <fieldset>
+                                                                                <legend>message*</legend>
+                                                                                <textarea rows="5"
+                                                                                    placeholder="Message"></textarea>
+                                                                            </fieldset>
+                                                                            <button type="submit"
+                                                                                class="common_btn w-100 mt_20">Submit</button>
+                                                                        </div>
+                                                                    </div>
+                                                                </form>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                                 <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
                                     aria-labelledby="v-pills-settings-tab">
-                                    <div class="wsus_dashboard_body">
+                                    <div class="wsus_dashboard_body dashboard_review">
                                         <div class="wsus__review_input">
                                             <h3>change password</h3>
                                             <form>
@@ -592,12 +998,12 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Confirm</h5>
+                        <h5 class="modal-title" id="exampleModalLabel00">Confirm</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
                         <img src="images/logout_img.png" alt="Logout" class="img-fluid w-100">
-                        <p>Are you sure you want to Logout <b>Kingserv</b></p>
+                        <p>Are you sure you want to Logout <b>AABCSERV</b></p>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="common_btn">Yes! Logout</button>

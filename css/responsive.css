@@ -566,6 +566,60 @@
     }
 
     /* HOME PAGE 3 END */
+
+    .wsus__invoice table tr th,
+    .wsus__invoice table tr td {
+        padding: 50px 10px !important;
+    }
+
+    .wsus__invoice .package {
+        min-width: 250px;
+    }
+
+    .wsus__invoice .price,
+    .wsus__invoice .qnty,
+    .wsus__invoice .total {
+        min-width: 130px;
+    }
+
+    .wsus__invoice_footer_request {
+        margin: 50px 0px 0px 0px;
+    }
+
+    .wsus__invoice_footer_total {
+        margin-top: 30px;
+    }
+
+    .wsus__support_ticket_top .right {
+        width: 65%;
+    }
+
+    .wsus__support_ticket_top .right a {
+        width: 230px;
+    }
+
+    .wsus__ticket_item table tr .sn {
+        min-width: 80px;
+    }
+
+    .wsus__ticket_item table tr .from,
+    .wsus__ticket_item table tr .info {
+        min-width: 240px;
+    }
+
+    .wsus__ticket_item table tr .status,
+    .wsus__ticket_item table tr .action {
+        min-width: 150px;
+    }
+
+    .wsus__support_tecket_footer p {
+        margin-bottom: 15px;
+    }
+
+    .wsus__support_ticket_top .right form {
+        width: 100%;
+    }
+
 }
 
 @media (min-width: 768px) and (max-width: 991.99px) {
@@ -1113,6 +1167,54 @@
     }
 
     /* HOME PAGE 3 END */
+
+    .wsus__sellar_joining_bg {
+        padding: 40px;
+    }
+
+    .wsus__invoice table tr th,
+    .wsus__invoice table tr td {
+        padding: 50px 10px !important;
+    }
+
+    .wsus__invoice .package {
+        min-width: 200px;
+    }
+
+    .wsus__invoice .price,
+    .wsus__invoice .qnty,
+    .wsus__invoice .total {
+        min-width: 130px;
+    }
+
+    .wsus__invoice_footer_request {
+        margin: 50px 0px 0px 0px;
+    }
+
+    .wsus__invoice_footer_total {
+        margin-top: 30px;
+    }
+
+
+
+
+
+
+
+
+    .wsus__ticket_item table tr .sn {
+        min-width: 80px;
+    }
+
+    .wsus__ticket_item table tr .from,
+    .wsus__ticket_item table tr .info {
+        min-width: 240px;
+    }
+
+    .wsus__ticket_item table tr .status,
+    .wsus__ticket_item table tr .action {
+        min-width: 150px;
+    }
 
 }
 
@@ -1810,6 +1912,66 @@
     }
 
     /* HOME PAGE 3 END */
+
+    .wsus__sellar_joining_bg {
+        padding: 30px;
+    }
+
+    .wsus__invoice table tr th,
+    .wsus__invoice table tr td {
+        padding: 50px 10px !important;
+    }
+
+    .wsus__invoice .package {
+        min-width: 200px;
+    }
+
+    .wsus__invoice .price,
+    .wsus__invoice .qnty,
+    .wsus__invoice .total {
+        min-width: 130px;
+    }
+
+    .wsus__invoice_footer_request {
+        margin: 50px 0px 0px 0px;
+    }
+
+    .wsus__invoice_footer_total {
+        margin-top: 30px;
+    }
+
+    .wsus__support_ticket_top .right {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .wsus__support_ticket_top .right a {
+        width: 100%;
+        margin: 10px 0px;
+    }
+
+    .wsus__ticket_item table tr .sn {
+        min-width: 80px;
+    }
+
+    .wsus__ticket_item table tr .from,
+    .wsus__ticket_item table tr .info {
+        min-width: 240px;
+    }
+
+    .wsus__ticket_item table tr .status,
+    .wsus__ticket_item table tr .action {
+        min-width: 150px;
+    }
+
+    .wsus__support_tecket_footer p {
+        margin-bottom: 15px;
+    }
+
+    .wsus__support_ticket_top .right form {
+        margin-top: 10px;
+        width: 100%;
+    }
 }
 
 @media (max-width: 575.99px) {
@@ -2744,4 +2906,69 @@
     }
 
     /* HOME PAGE 3 END */
+
+    .wsus__sellar_joining_bg {
+        padding: 15px;
+    }
+
+    .wsus__invoice table tr th,
+    .wsus__invoice table tr td {
+        padding: 15px 10px !important;
+    }
+
+    .wsus__invoice .package {
+        min-width: 200px;
+    }
+
+    .wsus__invoice .price,
+    .wsus__invoice .qnty,
+    .wsus__invoice .total {
+        min-width: 130px;
+    }
+
+    .wsus__invoice_footer_info p span {
+        width: 90px;
+    }
+
+    .wsus__invoice_footer_request {
+        margin: 50px 0px 0px 0px;
+    }
+
+    .wsus__invoice_footer_total {
+        margin-top: 30px;
+    }
+
+    .wsus__support_ticket_top .right {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .wsus__support_ticket_top .right a {
+        width: 100%;
+        margin: 10px 0px;
+    }
+
+    .wsus__ticket_item table tr .sn {
+        min-width: 80px;
+    }
+
+    .wsus__ticket_item table tr .from,
+    .wsus__ticket_item table tr .info {
+        min-width: 240px;
+    }
+
+    .wsus__ticket_item table tr .status,
+    .wsus__ticket_item table tr .action {
+        min-width: 150px;
+    }
+
+    .wsus__support_tecket_footer p {
+        margin-bottom: 15px;
+    }
+
+    .wsus__support_ticket_top .right form {
+        margin-top: 10px;
+        width: 100%;
+    }
+
 }
